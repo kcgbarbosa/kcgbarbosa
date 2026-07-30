@@ -1,0 +1,786 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 551" width="1200" height="735" role="img" aria-label="Kevin-Christian Joseph Giraldo-Barbosa, goes by KC">
+
+  <defs>
+    <clipPath id="flight-sort">
+      <rect x="-1" y="-13.5" height="17.8" width="0">
+        <animate attributeName="width" calcMode="discrete" dur="20.58s" repeatCount="indefinite"
+          keyTimes="0;0.17007;0.17007;0.17493;0.17979;0.18465;0.1895;0.19436;0.19922;0.20408;0.20894;0.2138;0.21866;1" values="0;0;0;9.18;18.36;27.54;36.72;45.9;55.08;64.26;73.44;82.62;91.8;91.8"/>
+      </rect>
+    </clipPath>
+    <clipPath id="flight-invoke">
+      <rect x="-1" y="-13.5" height="17.8" width="0">
+        <animate attributeName="width" calcMode="discrete" dur="20.58s" repeatCount="indefinite"
+          keyTimes="0;0.55296;0.55296;0.55602;0.55908;0.56213;0.56519;0.56825;0.5713;0.57436;0.57742;0.58047;0.58353;0.58659;0.58964;0.5927;0.59576;0.59881;0.60187;0.60492;0.60798;0.61104;0.61409;0.61715;0.62021;0.62326;0.62632;0.62938;0.63243;0.63549;0.63855;0.6416;0.64466;0.64772;1" values="0;0;0;9.18;18.36;27.54;36.72;45.9;55.08;64.26;73.44;82.62;91.8;100.98;110.16;119.34;128.52;137.7;146.88;156.06;165.24;174.42;183.6;192.78;201.96;211.14;220.32;229.5;238.68;247.86;257.04;266.22;275.4;284.58;284.58"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <rect width="900" height="551" fill="#F7F7F4"/>
+
+  <g opacity="1">
+    <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+      keyTimes="0;0.95141;1" values="1;1;0"/>
+
+    <g transform="translate(40 60.4)">
+      
+    <g>
+      <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+        calcMode="spline" keyTimes="0;0.03887;0.06803;1"
+        keySplines="0 0 1 1;0.16 1 0.3 1;0 0 1 1" values="-32.6,0; -32.6,0; 0,0; 0,0"/>
+      <g>
+        <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+          calcMode="spline" keyTimes="0;0.03887;0.06278;0.06803;1"
+          keySplines="0 0 1 1;0.5 0 0.9 0.5;0.2 0.7 0.4 1;0 0 1 1"
+          values="0,-38.1; 0,-38.1; 0,3; 0,0; 0,0"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" dur="20.58s" repeatCount="indefinite"
+            calcMode="spline" keyTimes="0;0.03887;0.06803;1"
+            keySplines="0 0 1 1;0.16 1 0.3 1;0 0 1 1"
+            values="-4.800000000000001 31.0 0; -4.800000000000001 31.0 0; 0 31.0 0; 0 31.0 0"/>
+          <path d="M15.86 0.00V-22.44H19.58V0.00ZM1.67 0.00V-22.44H5.39V0.00ZM4.01 -9.71V-12.92H17.66V-9.71Z M30.80 0.46Q28.61 0.46 27.00 -0.21Q25.40 -0.88 24.34 -2.10Q23.29 -3.32 22.77 -4.96Q22.25 -6.61 22.25 -8.59Q22.25 -10.52 22.75 -12.25Q23.26 -13.97 24.28 -15.29Q25.30 -16.61 26.85 -17.37Q28.41 -18.12 30.52 -18.12Q32.49 -18.12 33.97 -17.44Q35.46 -16.76 36.42 -15.51Q37.38 -14.26 37.77 -12.53Q38.17 -10.79 37.94 -8.69L24.55 -8.47V-10.79L35.19 -10.98L34.51 -9.64Q34.61 -11.29 34.20 -12.50Q33.80 -13.70 32.89 -14.37Q31.98 -15.03 30.52 -15.03Q28.95 -15.03 27.91 -14.24Q26.88 -13.45 26.38 -12.03Q25.87 -10.61 25.87 -8.74Q25.87 -5.66 27.16 -4.07Q28.44 -2.48 30.89 -2.48Q32.10 -2.48 32.90 -2.85Q33.69 -3.21 34.16 -3.82Q34.63 -4.42 34.81 -5.13Q34.99 -5.85 34.94 -6.53L38.39 -6.29Q38.42 -4.93 37.98 -3.71Q37.54 -2.50 36.59 -1.56Q35.65 -0.63 34.20 -0.08Q32.76 0.46 30.80 0.46Z M46.72 5.15Q45.49 5.15 44.24 4.90Q42.99 4.64 41.89 4.10Q40.78 3.55 39.93 2.72L41.36 -0.58Q42.38 0.68 43.80 1.19Q45.22 1.70 46.61 1.70Q48.69 1.70 49.91 0.81Q51.14 -0.09 51.67 -1.64Q52.21 -3.20 52.21 -5.19L52.46 -9.04H52.17Q51.97 -6.43 51.14 -4.81Q50.32 -3.20 49.05 -2.47Q47.77 -1.73 46.17 -1.73Q44.17 -1.73 42.90 -2.75Q41.63 -3.77 41.02 -5.70Q40.41 -7.62 40.41 -10.29V-17.65H44.10V-11.08Q44.10 -7.99 44.91 -6.52Q45.71 -5.05 47.46 -5.05Q48.45 -5.05 49.25 -5.52Q50.05 -5.98 50.61 -6.94Q51.17 -7.89 51.47 -9.32Q51.77 -10.74 51.77 -12.63V-17.65H55.45V-5.10Q55.45 -3.81 55.23 -2.38Q55.01 -0.95 54.45 0.38Q53.89 1.72 52.91 2.80Q51.94 3.88 50.41 4.51Q48.89 5.15 46.72 5.15Z M56.53 4.40Q57.14 2.75 57.39 1.49Q57.65 0.22 57.70 -0.88Q57.75 -1.99 57.75 -3.11H61.18Q61.18 -1.31 60.93 0.06Q60.67 1.43 60.23 2.48Q59.79 3.54 59.28 4.40Z" fill="#6E6D67" opacity="0">
+            <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.03887;0.0447;1" values="0;0;1;1"/>
+          </path>
+        </g>
+      </g>
+    </g>
+      
+      <g transform="translate(61.9 0)">
+        <g opacity="0">
+          <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+            keyTimes="0;0.09718;0.10204;1" values="0;0;1;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+            calcMode="spline" keyTimes="0;0.09718;0.11273;0.11662;1"
+            keySplines="0 0 1 1;0.16 1 0.3 1;0.3 0.7 0.4 1;0 0 1 1"
+            values="0,17.0; 0,17.0; 0,-1.5; 0,0; 0,0"/>
+          <path d="" fill="#6E6D67"/>
+        </g>
+      </g>
+      <g transform="translate(61.9 0)">
+        <g opacity="0">
+          <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+            keyTimes="0;0.10204;0.1069;1" values="0;0;1;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+            calcMode="spline" keyTimes="0;0.10204;0.11759;0.12148;1"
+            keySplines="0 0 1 1;0.16 1 0.3 1;0.3 0.7 0.4 1;0 0 1 1"
+            values="0,17.0; 0,17.0; 0,-1.5; 0,0; 0,0"/>
+          <path d="M8.69 0.00V-8.36L8.64 -17.65H11.97L11.59 -9.59H11.90Q12.14 -12.60 12.84 -14.48Q13.55 -16.35 14.76 -17.24Q15.96 -18.12 17.68 -18.12Q19.45 -18.12 20.52 -17.20Q21.59 -16.27 22.05 -14.38Q22.51 -12.50 22.36 -9.59H22.66Q22.87 -12.56 23.59 -14.44Q24.31 -16.32 25.56 -17.22Q26.81 -18.12 28.61 -18.12Q29.99 -18.12 31.01 -17.61Q32.03 -17.10 32.72 -16.07Q33.41 -15.05 33.75 -13.49Q34.09 -11.93 34.09 -9.84V0.00H30.36V-9.38Q30.36 -11.24 30.06 -12.43Q29.77 -13.62 29.15 -14.19Q28.53 -14.76 27.54 -14.76Q26.18 -14.76 25.20 -13.69Q24.23 -12.61 23.71 -10.62Q23.19 -8.62 23.19 -5.78V0.00H19.55V-9.57Q19.55 -11.34 19.24 -12.49Q18.94 -13.63 18.32 -14.20Q17.70 -14.76 16.73 -14.76Q15.44 -14.76 14.47 -13.75Q13.50 -12.75 12.95 -10.75Q12.39 -8.76 12.39 -5.78V0.00Z" fill="#6E6D67"/>
+        </g>
+      </g>
+      <g transform="translate(61.9 0)">
+        <g opacity="0">
+          <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+            keyTimes="0;0.1069;0.11176;1" values="0;0;1;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+            calcMode="spline" keyTimes="0;0.1069;0.12245;0.12634;1"
+            keySplines="0 0 1 1;0.16 1 0.3 1;0.3 0.7 0.4 1;0 0 1 1"
+            values="0,17.0; 0,17.0; 0,-1.5; 0,0; 0,0"/>
+          <path d="M42.98 5.15Q41.75 5.15 40.50 4.90Q39.25 4.64 38.15 4.10Q37.04 3.55 36.19 2.72L37.62 -0.58Q38.64 0.68 40.06 1.19Q41.48 1.70 42.87 1.70Q44.95 1.70 46.17 0.81Q47.40 -0.09 47.93 -1.64Q48.47 -3.20 48.47 -5.19L48.72 -9.04H48.43Q48.23 -6.43 47.40 -4.81Q46.58 -3.20 45.31 -2.47Q44.03 -1.73 42.43 -1.73Q40.43 -1.73 39.16 -2.75Q37.89 -3.77 37.28 -5.70Q36.67 -7.62 36.67 -10.29V-17.65H40.36V-11.08Q40.36 -7.99 41.17 -6.52Q41.97 -5.05 43.72 -5.05Q44.71 -5.05 45.51 -5.52Q46.31 -5.98 46.87 -6.94Q47.43 -7.89 47.73 -9.32Q48.03 -10.74 48.03 -12.63V-17.65H51.71V-5.10Q51.71 -3.81 51.49 -2.38Q51.27 -0.95 50.71 0.38Q50.15 1.72 49.17 2.80Q48.20 3.88 46.67 4.51Q45.15 5.15 42.98 5.15Z" fill="#6E6D67"/>
+        </g>
+      </g>
+      <g transform="translate(61.9 0)">
+        <g opacity="0">
+          <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+            keyTimes="0;0.11176;0.11662;1" values="0;0;1;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+            calcMode="spline" keyTimes="0;0.11176;0.12731;0.1312;1"
+            keySplines="0 0 1 1;0.16 1 0.3 1;0.3 0.7 0.4 1;0 0 1 1"
+            values="0,17.0; 0,17.0; 0,-1.5; 0,0; 0,0"/>
+          <path d="" fill="#6E6D67"/>
+        </g>
+      </g>
+      <g transform="translate(61.9 0)">
+        <g opacity="0">
+          <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+            keyTimes="0;0.11662;0.12148;1" values="0;0;1;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+            calcMode="spline" keyTimes="0;0.11662;0.13217;0.13605;1"
+            keySplines="0 0 1 1;0.16 1 0.3 1;0.3 0.7 0.4 1;0 0 1 1"
+            values="0,17.0; 0,17.0; 0,-1.5; 0,0; 0,0"/>
+          <path d="M61.81 0.00V-8.79L61.78 -17.65H65.09L64.72 -9.59H65.03Q65.23 -12.48 65.97 -14.37Q66.71 -16.25 68.04 -17.19Q69.38 -18.12 71.33 -18.12Q74.31 -18.12 75.74 -16.03Q77.18 -13.94 77.18 -9.64V0.00H73.47V-9.38Q73.47 -12.17 72.70 -13.49Q71.93 -14.81 70.18 -14.81Q68.70 -14.81 67.65 -13.80Q66.61 -12.78 66.06 -10.68Q65.52 -8.59 65.52 -5.27V0.00Z" fill="#6E6D67"/>
+        </g>
+      </g>
+      <g transform="translate(61.9 0)">
+        <g opacity="0">
+          <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+            keyTimes="0;0.12148;0.12634;1" values="0;0;1;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+            calcMode="spline" keyTimes="0;0.12148;0.13703;0.14091;1"
+            keySplines="0 0 1 1;0.16 1 0.3 1;0.3 0.7 0.4 1;0 0 1 1"
+            values="0,17.0; 0,17.0; 0,-1.5; 0,0; 0,0"/>
+          <path d="M84.51 0.46Q83.13 0.46 81.95 -0.03Q80.77 -0.53 80.04 -1.59Q79.32 -2.65 79.32 -4.37Q79.32 -5.93 79.92 -6.93Q80.51 -7.92 81.56 -8.54Q82.60 -9.16 83.93 -9.50Q85.25 -9.84 86.70 -10.08Q88.59 -10.40 89.50 -10.60Q90.42 -10.79 90.72 -11.09Q91.02 -11.39 91.02 -11.93Q91.02 -13.43 90.01 -14.23Q89.00 -15.03 87.47 -15.03Q86.53 -15.03 85.61 -14.67Q84.69 -14.31 84.07 -13.49Q83.45 -12.67 83.39 -11.25L80.00 -11.65Q80.09 -13.50 80.78 -14.75Q81.46 -16.00 82.56 -16.74Q83.66 -17.48 84.95 -17.80Q86.24 -18.12 87.53 -18.12Q89.71 -18.12 91.30 -17.31Q92.89 -16.49 93.76 -14.87Q94.64 -13.24 94.64 -10.79V-7.50Q94.66 -6.26 94.66 -5.00Q94.67 -3.74 94.68 -2.49Q94.69 -1.24 94.69 0.00H91.32Q91.41 -1.46 91.48 -2.88Q91.55 -4.30 91.61 -5.87H91.36Q91.14 -4.10 90.23 -2.66Q89.32 -1.22 87.86 -0.38Q86.41 0.46 84.51 0.46ZM85.71 -2.47Q86.65 -2.47 87.58 -2.85Q88.50 -3.23 89.27 -4.00Q90.03 -4.76 90.51 -5.89Q90.98 -7.02 91.02 -8.50L91.03 -9.28L91.94 -9.52Q91.58 -9.01 90.79 -8.73Q90.00 -8.45 88.99 -8.29Q87.97 -8.13 86.95 -7.95Q85.92 -7.77 85.03 -7.43Q84.15 -7.09 83.61 -6.49Q83.06 -5.90 83.06 -4.86Q83.06 -3.76 83.77 -3.11Q84.47 -2.47 85.71 -2.47Z" fill="#6E6D67"/>
+        </g>
+      </g>
+      <g transform="translate(61.9 0)">
+        <g opacity="0">
+          <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+            keyTimes="0;0.12634;0.1312;1" values="0;0;1;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+            calcMode="spline" keyTimes="0;0.12634;0.14189;0.14577;1"
+            keySplines="0 0 1 1;0.16 1 0.3 1;0.3 0.7 0.4 1;0 0 1 1"
+            values="0,17.0; 0,17.0; 0,-1.5; 0,0; 0,0"/>
+          <path d="M97.50 0.00V-8.36L97.44 -17.65H100.78L100.40 -9.59H100.71Q100.95 -12.60 101.65 -14.48Q102.36 -16.35 103.56 -17.24Q104.77 -18.12 106.49 -18.12Q108.26 -18.12 109.33 -17.20Q110.40 -16.27 110.86 -14.38Q111.32 -12.50 111.16 -9.59H111.47Q111.67 -12.56 112.40 -14.44Q113.12 -16.32 114.37 -17.22Q115.62 -18.12 117.42 -18.12Q118.80 -18.12 119.82 -17.61Q120.84 -17.10 121.52 -16.07Q122.21 -15.05 122.55 -13.49Q122.89 -11.93 122.89 -9.84V0.00H119.17V-9.38Q119.17 -11.24 118.87 -12.43Q118.58 -13.62 117.95 -14.19Q117.33 -14.76 116.35 -14.76Q114.99 -14.76 114.01 -13.69Q113.03 -12.61 112.51 -10.62Q112.00 -8.62 112.00 -5.78V0.00H108.36V-9.57Q108.36 -11.34 108.05 -12.49Q107.75 -13.63 107.13 -14.20Q106.51 -14.76 105.54 -14.76Q104.24 -14.76 103.28 -13.75Q102.31 -12.75 101.75 -10.75Q101.20 -8.76 101.20 -5.78V0.00Z" fill="#6E6D67"/>
+        </g>
+      </g>
+      <g transform="translate(61.9 0)">
+        <g opacity="0">
+          <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+            keyTimes="0;0.1312;0.13605;1" values="0;0;1;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+            calcMode="spline" keyTimes="0;0.1312;0.14674;0.15063;1"
+            keySplines="0 0 1 1;0.16 1 0.3 1;0.3 0.7 0.4 1;0 0 1 1"
+            values="0,17.0; 0,17.0; 0,-1.5; 0,0; 0,0"/>
+          <path d="M133.76 0.46Q131.56 0.46 129.96 -0.21Q128.35 -0.88 127.30 -2.10Q126.24 -3.32 125.72 -4.96Q125.21 -6.61 125.21 -8.59Q125.21 -10.52 125.71 -12.25Q126.21 -13.97 127.23 -15.29Q128.25 -16.61 129.80 -17.37Q131.36 -18.12 133.47 -18.12Q135.44 -18.12 136.93 -17.44Q138.41 -16.76 139.37 -15.51Q140.34 -14.26 140.73 -12.53Q141.12 -10.79 140.90 -8.69L127.50 -8.47V-10.79L138.14 -10.98L137.46 -9.64Q137.56 -11.29 137.16 -12.50Q136.75 -13.70 135.84 -14.37Q134.93 -15.03 133.47 -15.03Q131.90 -15.03 130.87 -14.24Q129.83 -13.45 129.33 -12.03Q128.83 -10.61 128.83 -8.74Q128.83 -5.66 130.11 -4.07Q131.39 -2.48 133.84 -2.48Q135.05 -2.48 135.85 -2.85Q136.65 -3.21 137.11 -3.82Q137.58 -4.42 137.76 -5.13Q137.94 -5.85 137.89 -6.53L141.34 -6.29Q141.37 -4.93 140.93 -3.71Q140.49 -2.50 139.54 -1.56Q138.60 -0.63 137.16 -0.08Q135.71 0.46 133.76 0.46Z" fill="#6E6D67"/>
+        </g>
+      </g>
+      <g transform="translate(61.9 0)">
+        <g opacity="0">
+          <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+            keyTimes="0;0.13605;0.14091;1" values="0;0;1;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+            calcMode="spline" keyTimes="0;0.13605;0.1516;0.15549;1"
+            keySplines="0 0 1 1;0.16 1 0.3 1;0.3 0.7 0.4 1;0 0 1 1"
+            values="0,17.0; 0,17.0; 0,-1.5; 0,0; 0,0"/>
+          <path d="" fill="#6E6D67"/>
+        </g>
+      </g>
+      <g transform="translate(61.9 0)">
+        <g opacity="0">
+          <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+            keyTimes="0;0.14091;0.14577;1" values="0;0;1;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+            calcMode="spline" keyTimes="0;0.14091;0.15646;0.16035;1"
+            keySplines="0 0 1 1;0.16 1 0.3 1;0.3 0.7 0.4 1;0 0 1 1"
+            values="0,17.0; 0,17.0; 0,-1.5; 0,0; 0,0"/>
+          <path d="M150.76 0.00V-17.65H154.46V0.00ZM152.59 -19.62Q151.45 -19.62 150.87 -20.11Q150.28 -20.60 150.28 -21.51Q150.28 -22.44 150.88 -22.92Q151.47 -23.39 152.59 -23.39Q153.73 -23.39 154.32 -22.91Q154.90 -22.42 154.90 -21.49Q154.90 -20.60 154.31 -20.11Q153.72 -19.62 152.59 -19.62Z" fill="#6E6D67"/>
+        </g>
+      </g>
+      <g transform="translate(61.9 0)">
+        <g opacity="0">
+          <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+            keyTimes="0;0.14577;0.15063;1" values="0;0;1;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+            calcMode="spline" keyTimes="0;0.14577;0.16132;0.16521;1"
+            keySplines="0 0 1 1;0.16 1 0.3 1;0.3 0.7 0.4 1;0 0 1 1"
+            values="0,17.0; 0,17.0; 0,-1.5; 0,0; 0,0"/>
+          <path d="M164.71 0.46Q163.01 0.46 161.56 0.10Q160.11 -0.26 159.05 -1.04Q158.00 -1.82 157.45 -3.11Q156.91 -4.40 157.03 -6.24L160.36 -6.56Q160.31 -5.03 160.85 -4.11Q161.40 -3.20 162.43 -2.80Q163.46 -2.40 164.83 -2.40Q166.60 -2.40 167.62 -2.99Q168.64 -3.59 168.64 -4.69Q168.64 -5.53 168.12 -5.99Q167.60 -6.46 166.62 -6.75Q165.63 -7.04 164.24 -7.33Q162.78 -7.65 161.48 -8.01Q160.19 -8.36 159.21 -8.93Q158.24 -9.49 157.69 -10.38Q157.15 -11.27 157.15 -12.65Q157.15 -14.33 158.04 -15.55Q158.93 -16.78 160.54 -17.45Q162.15 -18.12 164.29 -18.12Q166.26 -18.12 167.93 -17.48Q169.61 -16.83 170.58 -15.42Q171.55 -14.01 171.38 -11.73L168.11 -11.34Q168.22 -12.67 167.71 -13.52Q167.20 -14.38 166.26 -14.81Q165.33 -15.23 164.08 -15.23Q162.52 -15.23 161.59 -14.60Q160.67 -13.97 160.67 -12.92Q160.67 -12.04 161.24 -11.53Q161.81 -11.03 162.83 -10.76Q163.86 -10.49 165.22 -10.22Q166.41 -10.00 167.64 -9.68Q168.86 -9.37 169.89 -8.80Q170.92 -8.23 171.56 -7.26Q172.19 -6.29 172.19 -4.76Q172.19 -3.16 171.30 -1.99Q170.41 -0.82 168.74 -0.18Q167.08 0.46 164.71 0.46Z" fill="#6E6D67"/>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(40 90.4)" opacity="0">
+      <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+        keyTimes="0;0.0243;0.05345;0.26725;0.33528;1"
+        values="0;0;0.2;0.2;1;1"/>
+      
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M4.17 0.00V-68.85H21.07V-39.44Q26.08 -41.10 29.89 -44.18Q33.70 -47.26 36.41 -51.22Q39.12 -55.19 40.90 -59.73Q42.67 -64.26 43.61 -68.85H62.60Q61.34 -62.91 59.00 -57.64Q56.65 -52.37 53.10 -47.99Q49.55 -43.61 44.86 -40.22Q40.17 -36.83 34.22 -34.64V-33.80Q40.58 -34.32 44.76 -33.02Q48.93 -31.72 51.54 -29.21Q54.15 -26.71 55.66 -23.53Q57.17 -20.34 58.21 -17.11L63.74 0.00H44.96L41.00 -15.34Q40.06 -19.09 38.34 -21.44Q36.62 -23.79 33.91 -24.83Q31.19 -25.87 27.02 -25.87H21.07V0.00Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.26725;0.34014;0.70845;0.71817;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17;#D4A02B;#D4A02B"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.14577;0.26725;0.34014;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="235,12;235,12;88.6,-90.9;166.5,-90.9;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.14577;0.26725;0.34014;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-9 32.5 -34.4;-9 32.5 -34.4;26.3 32.5 -34.4;27.1 32.5 -34.4;0 32.5 -34.4;0 32.5 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M69.17 0.00V-68.85H86.07V0.00ZM81.79 0.00V-14.08H118.41V0.00ZM81.79 -28.38V-41.00H113.61V-28.38ZM81.79 -54.77V-68.85H118.41V-54.77Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.27332;0.34621;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.14881;0.27332;0.34621;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="138.4,-90.9;138.4,-90.9;-65,-90.9;0.5,0.6;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.14881;0.27332;0.34621;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="31.9 93.3 -34.4;31.9 93.3 -34.4;-6.8 93.3 -34.4;15.5 93.3 -34.4;0 93.3 -34.4;0 93.3 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M143.76 0.00 122.06 -68.85H140.42L154.61 -13.98H154.92L168.80 -68.85H187.16L165.46 0.00Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.2794;0.35228;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.15185;0.2794;0.35228;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="53.7,-41.1;53.7,-41.1;-47.5,-26.5;-49.1,-90.9;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.15185;0.2794;0.35228;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-4.6 154.6 -34.4;-4.6 154.6 -34.4;14.4 154.6 -34.4;-6.3 154.6 -34.4;0 154.6 -34.4;0 154.6 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M191.75 0.00V-68.85H208.76V0.00Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.28547;0.35836;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.15488;0.28547;0.35836;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-187.6,-90.9;-187.6,-90.9;-164.8,-18;174.9,-76.1;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.15488;0.28547;0.35836;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-33.3 200.3 -34.4;-33.3 200.3 -34.4;-8.2 200.3 -34.4;-12.5 200.3 -34.4;0 200.3 -34.4;0 200.3 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M217.10 0.00V-68.85H239.74L264.26 -22.22H264.47V-68.85H281.16V0.00H259.88L234.00 -48.20H233.79V0.00Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.29155;0.36443;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.15792;0.29155;0.36443;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-70.5,83.7;-70.5,83.7;200.9,115.7;-209.4,-61.3;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.15792;0.29155;0.36443;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="31.5 249.1 -34.4;31.5 249.1 -34.4;-29 249.1 -34.4;-13.7 249.1 -34.4;0 249.1 -34.4;0 249.1 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M286.90 -20.34V-35.16H316.42V-20.34Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.29762;0.37051;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.16096;0.29762;0.37051;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="94.8,111.2;94.8,111.2;-150.4,-90.9;-148.3,106;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.16096;0.29762;0.37051;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-25.8 301.8 -34.4;-25.8 301.8 -34.4;-2.1 301.8 -34.4;-29.7 301.8 -34.4;0 301.8 -34.4;0 301.8 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M353.87 1.46Q345.11 1.46 338.85 -1.36Q332.59 -4.17 328.63 -9.18Q324.66 -14.19 322.84 -20.60Q321.01 -27.02 321.01 -34.22Q321.01 -41.63 322.89 -48.20Q324.77 -54.77 328.68 -59.73Q332.59 -64.68 338.75 -67.50Q344.90 -70.32 353.56 -70.32Q361.07 -70.32 366.50 -68.18Q371.92 -66.04 375.21 -62.33Q378.49 -58.63 379.75 -53.83Q381.00 -49.03 380.37 -43.82L364.83 -41.94Q365.04 -46.42 363.73 -49.66Q362.43 -52.89 359.77 -54.67Q357.11 -56.44 353.04 -56.44Q349.60 -56.44 346.94 -55.08Q344.27 -53.73 342.45 -51.02Q340.62 -48.30 339.68 -44.29Q338.75 -40.27 338.75 -34.95Q338.75 -28.06 340.41 -23.00Q342.08 -17.94 345.53 -15.18Q348.97 -12.41 354.19 -12.41Q358.98 -12.41 361.75 -14.61Q364.51 -16.80 365.66 -20.66Q366.81 -24.52 366.39 -29.32L382.35 -27.96Q382.88 -22.22 381.57 -16.95Q380.27 -11.68 376.88 -7.51Q373.49 -3.34 367.80 -0.94Q362.11 1.46 353.87 1.46Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.30369;0.37658;0.70845;0.71817;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17;#D4A02B;#D4A02B"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.16399;0.30369;0.37658;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-190,45.3;-190,45.3;-26,-90.9;166.9,-90.9;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.16399;0.30369;0.37658;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="19.9 351.2 -34.4;19.9 351.2 -34.4;-15.4 351.2 -34.4;-5.7 351.2 -34.4;0 351.2 -34.4;0 351.2 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M429.51 0.00V-68.85H446.41V0.00ZM388.30 0.00V-68.85H405.20V0.00ZM400.92 -27.54V-41.73H438.38V-27.54Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.30977;0.38265;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.16703;0.30977;0.38265;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-106.5,19.2;-106.5,19.2;-203.9,-90.9;93.7,54.4;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.16703;0.30977;0.38265;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-34.6 417.4 -34.4;-34.6 417.4 -34.4;-20 417.4 -34.4;-10.9 417.4 -34.4;0 417.4 -34.4;0 417.4 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M454.76 0.00V-68.85H483.34Q487.93 -68.85 492.05 -68.07Q496.17 -67.29 499.56 -65.73Q502.95 -64.16 505.46 -61.76Q507.96 -59.36 509.32 -56.08Q510.67 -52.79 510.67 -48.62Q510.67 -45.38 509.58 -42.51Q508.48 -39.64 506.14 -37.35Q503.79 -35.05 500.09 -33.54Q496.38 -32.03 491.27 -31.40V-30.57Q497.95 -30.25 501.60 -27.96Q505.25 -25.66 507.08 -22.17Q508.90 -18.67 509.84 -14.61L513.49 0.00H494.82L492.21 -13.67Q491.58 -17.21 490.28 -19.40Q488.97 -21.60 486.58 -22.64Q484.18 -23.68 480.21 -23.68H471.66V0.00ZM471.66 -36.72H481.46Q487.20 -36.72 490.23 -38.91Q493.25 -41.10 493.25 -45.59Q493.25 -50.49 490.44 -52.89Q487.62 -55.29 481.88 -55.29H471.66Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.31584;0.38873;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.17007;0.31584;0.38873;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="76.5,67.4;76.5,67.4;224,57.3;-215.9,-90.9;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.17007;0.31584;0.38873;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-33.3 482.7 -34.4;-33.3 482.7 -34.4;-11.5 482.7 -34.4;-20.8 482.7 -34.4;0 482.7 -34.4;0 482.7 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M518.92 0.00V-68.85H535.92V0.00Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.32191;0.3948;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.1731;0.32191;0.3948;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="234.4,-90.9;234.4,-90.9;13.5,-58.7;-226.1,-70;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.1731;0.32191;0.3948;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="13.5 527.4 -34.4;13.5 527.4 -34.4;-25.6 527.4 -34.4;4.5 527.4 -34.4;0 527.4 -34.4;0 527.4 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M571.29 1.46Q563.98 1.46 558.51 -0.21Q553.03 -1.88 549.38 -5.01Q545.73 -8.14 544.01 -12.57Q542.28 -17.01 542.49 -22.43L558.14 -25.87Q558.35 -21.07 560.18 -18.10Q562.00 -15.13 565.13 -13.72Q568.26 -12.31 572.12 -12.31Q575.25 -12.31 577.65 -13.09Q580.05 -13.88 581.46 -15.28Q582.87 -16.69 582.87 -18.57Q582.87 -21.07 580.99 -22.69Q579.11 -24.31 575.83 -25.46Q572.54 -26.60 568.37 -27.75Q563.88 -29.00 559.45 -30.52Q555.01 -32.03 551.36 -34.32Q547.71 -36.62 545.47 -40.27Q543.22 -43.92 543.22 -49.35Q543.22 -56.02 546.61 -60.72Q550.01 -65.41 556.00 -67.86Q562.00 -70.32 569.72 -70.32Q577.86 -70.32 584.22 -67.55Q590.59 -64.79 594.03 -59.47Q597.47 -54.15 596.74 -46.42L581.30 -43.92Q581.41 -47.05 580.68 -49.45Q579.95 -51.85 578.43 -53.52Q576.92 -55.19 574.63 -56.08Q572.33 -56.96 569.20 -56.96Q565.97 -56.96 563.83 -56.13Q561.69 -55.29 560.59 -53.83Q559.50 -52.37 559.50 -50.49Q559.50 -48.30 561.17 -46.84Q562.84 -45.38 565.97 -44.29Q569.10 -43.19 573.37 -42.04Q577.86 -40.79 582.40 -39.28Q586.94 -37.77 590.80 -35.31Q594.66 -32.86 597.00 -29.00Q599.35 -25.14 599.35 -19.20Q599.35 -12.31 595.75 -7.72Q592.15 -3.13 585.84 -0.83Q579.53 1.46 571.29 1.46Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.32799;0.40087;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.17614;0.32799;0.40087;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="98.6,45.7;98.6,45.7;-189.4,27.1;61,-52.2;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.17614;0.32799;0.40087;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-16.7 569.9 -34.4;-16.7 569.9 -34.4;9.2 569.9 -34.4;-16.2 569.9 -34.4;0 569.9 -34.4;0 569.9 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M618.13 0.00V-68.85H635.03V0.00ZM601.12 -54.46V-68.85H652.04V-54.46Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.33406;0.40695;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.17918;0.33406;0.40695;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="166.5,-61.7;166.5,-61.7;166.5,-10.8;-143.3,26.2;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.17918;0.33406;0.40695;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-13.4 626.6 -34.4;-13.4 626.6 -34.4;4.7 626.6 -34.4;29.2 626.6 -34.4;0 626.6 -34.4;0 626.6 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M657.67 0.00V-68.85H674.67V0.00Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.34014;0.41302;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.18222;0.34014;0.41302;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="141.1,25.8;141.1,25.8;109.5,-90.9;-220.7,21.1;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.18222;0.34014;0.41302;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="17.9 666.2 -34.4;17.9 666.2 -34.4;-3.8 666.2 -34.4;-10.3 666.2 -34.4;0 666.2 -34.4;0 666.2 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M679.26 0.00 702.32 -68.85H724.23L747.18 0.00H728.92L713.48 -55.19H712.86L697.31 0.00ZM692.31 -12.21V-24.10H736.23V-12.21Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.34621;0.4191;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.18525;0.34621;0.4191;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-66.1,84.2;-66.1,84.2;-111.5,-90.9;72.4,-90.9;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.18525;0.34621;0.4191;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="2.6 713.2 -34.4;2.6 713.2 -34.4;-14.5 713.2 -34.4;-34.2 713.2 -34.4;0 713.2 -34.4;0 713.2 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 68.9)">
+        <g>
+          <path d="M751.77 0.00V-68.85H774.41L798.93 -22.22H799.13V-68.85H815.83V0.00H794.54L768.67 -48.20H768.46V0.00Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.35228;0.42517;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.18829;0.35228;0.42517;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-139.6,174.2;-139.6,174.2;0,120.5;0,47.8;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.18829;0.35228;0.42517;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-21.5 783.8 -34.4;-21.5 783.8 -34.4;-20.2 783.8 -34.4;16.3 783.8 -34.4;0 783.8 -34.4;0 783.8 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(236.29770992366412 157.0)">
+        <g>
+          <path d="M2.71 0.63 0.83 -14.71Q2.09 -14.40 3.29 -14.29Q4.49 -14.19 4.69 -14.19Q7.82 -14.19 9.65 -15.34Q11.48 -16.48 12.21 -18.99Q12.94 -21.49 12.94 -25.46V-68.85H29.84V-25.35Q29.84 -16.59 27.33 -10.75Q24.83 -4.90 19.82 -1.98Q14.81 0.94 7.30 0.94Q5.74 0.94 4.80 0.83Q3.86 0.73 2.71 0.63Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.35836;0.43124;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.19133;0.35836;0.43124;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="205.5,51.3;205.5,51.3;28.4,-136.6;166.7,103.5;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.19133;0.35836;0.43124;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-5.6 16.9 -34.4;-5.6 16.9 -34.4;0.8 16.9 -34.4;-34.3 16.9 -34.4;0 16.9 -34.4;0 16.9 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(236.29770992366412 157.0)">
+        <g>
+          <path d="M67.92 1.46Q60.61 1.46 54.77 -0.83Q48.93 -3.13 44.86 -7.62Q40.79 -12.10 38.65 -18.78Q36.51 -25.46 36.51 -34.11Q36.51 -46.42 40.53 -54.41Q44.55 -62.39 51.80 -66.35Q59.05 -70.32 68.54 -70.32Q75.84 -70.32 81.63 -68.07Q87.42 -65.83 91.49 -61.34Q95.56 -56.86 97.70 -50.13Q99.84 -43.40 99.84 -34.53Q99.84 -25.56 97.60 -18.78Q95.35 -12.00 91.13 -7.51Q86.90 -3.03 81.01 -0.78Q75.11 1.46 67.92 1.46ZM68.54 -12.41Q73.24 -12.41 76.31 -14.76Q79.39 -17.11 80.90 -21.86Q82.42 -26.60 82.42 -33.80Q82.42 -41.42 80.80 -46.42Q79.18 -51.43 76.00 -53.99Q72.82 -56.54 68.02 -56.54Q63.43 -56.54 60.30 -54.09Q57.17 -51.64 55.61 -46.74Q54.04 -41.83 54.04 -34.53Q54.04 -29.00 54.93 -24.83Q55.81 -20.66 57.64 -17.89Q59.47 -15.13 62.18 -13.77Q64.89 -12.41 68.54 -12.41Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.36443;0.43732;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.19436;0.36443;0.43732;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="118.4,111.3;118.4,111.3;173.9,-70.4;154.6,112.1;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.19436;0.36443;0.43732;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="21 68.1 -34.4;21 68.1 -34.4;20.3 68.1 -34.4;2.8 68.1 -34.4;0 68.1 -34.4;0 68.1 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(236.29770992366412 157.0)">
+        <g>
+          <path d="M133.64 1.46Q126.34 1.46 120.86 -0.21Q115.38 -1.88 111.73 -5.01Q108.08 -8.14 106.36 -12.57Q104.64 -17.01 104.85 -22.43L120.50 -25.87Q120.70 -21.07 122.53 -18.10Q124.36 -15.13 127.49 -13.72Q130.62 -12.31 134.48 -12.31Q137.61 -12.31 140.01 -13.09Q142.40 -13.88 143.81 -15.28Q145.22 -16.69 145.22 -18.57Q145.22 -21.07 143.34 -22.69Q141.47 -24.31 138.18 -25.46Q134.89 -26.60 130.72 -27.75Q126.23 -29.00 121.80 -30.52Q117.37 -32.03 113.72 -34.32Q110.06 -36.62 107.82 -40.27Q105.58 -43.92 105.58 -49.35Q105.58 -56.02 108.97 -60.72Q112.36 -65.41 118.36 -67.86Q124.36 -70.32 132.08 -70.32Q140.21 -70.32 146.58 -67.55Q152.94 -64.79 156.38 -59.47Q159.83 -54.15 159.10 -46.42L143.66 -43.92Q143.76 -47.05 143.03 -49.45Q142.30 -51.85 140.79 -53.52Q139.27 -55.19 136.98 -56.08Q134.68 -56.96 131.55 -56.96Q128.32 -56.96 126.18 -56.13Q124.04 -55.29 122.95 -53.83Q121.85 -52.37 121.85 -50.49Q121.85 -48.30 123.52 -46.84Q125.19 -45.38 128.32 -44.29Q131.45 -43.19 135.73 -42.04Q140.21 -40.79 144.75 -39.28Q149.29 -37.77 153.15 -35.31Q157.01 -32.86 159.36 -29.00Q161.70 -25.14 161.70 -19.20Q161.70 -12.31 158.11 -7.72Q154.51 -3.13 148.19 -0.83Q141.88 1.46 133.64 1.46Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.37051;0.44339;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.1974;0.37051;0.44339;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="146.3,112.1;146.3,112.1;-31.1,83.5;-174.5,-134;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.1974;0.37051;0.44339;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="35 133.0 -34.4;35 133.0 -34.4;5.3 133.0 -34.4;-8.8 133.0 -34.4;0 133.0 -34.4;0 133.0 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(236.29770992366412 157.0)">
+        <g>
+          <path d="M167.65 0.00V-68.85H184.55V0.00ZM180.27 0.00V-14.08H216.89V0.00ZM180.27 -28.38V-41.00H212.09V-28.38ZM180.27 -54.77V-68.85H216.89V-54.77Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.37658;0.44947;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.20044;0.37658;0.44947;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-164.5,-59.3;-164.5,-59.3;-11.9,-12.6;-5.7,-97.8;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.20044;0.37658;0.44947;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-5.1 191.6 -34.4;-5.1 191.6 -34.4;-6.5 191.6 -34.4;4.1 191.6 -34.4;0 191.6 -34.4;0 191.6 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(236.29770992366412 157.0)">
+        <g>
+          <path d="M236.61 -19.51V-33.07H249.44Q255.81 -33.07 258.94 -35.63Q262.07 -38.18 262.07 -44.13Q262.07 -49.76 259.20 -52.53Q256.33 -55.29 250.49 -55.29H236.61V-68.85H251.42Q257.37 -68.85 262.48 -67.45Q267.60 -66.04 271.40 -63.01Q275.21 -59.99 277.35 -55.40Q279.49 -50.81 279.49 -44.34Q279.49 -36.10 275.78 -30.57Q272.08 -25.04 265.09 -22.27Q258.10 -19.51 247.98 -19.51ZM223.99 0.00V-68.85H240.89V0.00Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.38265;0.45554;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.20347;0.38265;0.45554;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="147.9,18.1;147.9,18.1;-211.7,112.1;-103.3,43.2;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.20347;0.38265;0.45554;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-13.8 250.4 -34.4;-13.8 250.4 -34.4;-21.9 250.4 -34.4;33.4 250.4 -34.4;0 250.4 -34.4;0 250.4 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(236.29770992366412 157.0)">
+        <g>
+          <path d="M326.33 0.00V-68.85H343.23V0.00ZM285.12 0.00V-68.85H302.02V0.00ZM297.75 -27.54V-41.73H335.20V-27.54Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.38873;0.46161;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.20651;0.38873;0.46161;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="166.6,-179;166.6,-179;-64.4,-160;186.5,112.1;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.20651;0.38873;0.46161;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-25.5 314.2 -34.4;-25.5 314.2 -34.4;-28.1 314.2 -34.4;8.1 314.2 -34.4;0 314.2 -34.4;0 314.2 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M31.40 1.46Q22.43 1.46 16.01 -3.03Q9.60 -7.51 6.21 -15.49Q2.82 -23.47 2.82 -33.91Q2.82 -41.63 4.75 -48.25Q6.68 -54.88 10.75 -59.83Q14.81 -64.79 21.07 -67.55Q27.33 -70.32 35.99 -70.32Q43.30 -70.32 48.56 -68.33Q53.83 -66.35 57.17 -62.80Q60.51 -59.26 61.87 -54.61Q63.22 -49.97 62.70 -44.65L46.95 -42.77Q47.16 -47.47 45.80 -50.44Q44.44 -53.41 41.78 -54.88Q39.12 -56.34 35.37 -56.34Q30.88 -56.34 27.54 -53.94Q24.20 -51.54 22.38 -46.74Q20.55 -41.94 20.55 -34.74Q20.55 -29.42 21.60 -25.19Q22.64 -20.97 24.73 -18.10Q26.81 -15.23 29.89 -13.72Q32.97 -12.21 36.93 -12.21Q40.90 -12.21 43.71 -13.61Q46.53 -15.02 48.04 -17.47Q49.55 -19.93 49.55 -23.16H38.70V-35.05H64.58V-22.12V0.00H53.00V-18.57H52.06Q51.54 -12.10 48.98 -7.62Q46.42 -3.13 41.99 -0.83Q37.56 1.46 31.40 1.46Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.3948;0.46769;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.20955;0.3948;0.46769;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="102.1,4.9;102.1,4.9;211.7,-33.8;135.3,23.9;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.20955;0.3948;0.46769;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="7.8 33.9 -34.4;7.8 33.9 -34.4;-28 33.9 -34.4;-19.9 33.9 -34.4;0 33.9 -34.4;0 33.9 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M66.43 0.00V-68.85H83.44V0.00Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.40087;0.47376;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.21259;0.40087;0.47376;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-62.3,23.9;-62.3,23.9;171.2,23.9;-34.4,-60.9;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.21259;0.40087;0.47376;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-17.5 74.9 -34.4;-17.5 74.9 -34.4;-16.7 74.9 -34.4;22.3 74.9 -34.4;0 74.9 -34.4;0 74.9 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M86.34 0.00V-68.85H114.92Q119.51 -68.85 123.63 -68.07Q127.75 -67.29 131.14 -65.73Q134.54 -64.16 137.04 -61.76Q139.54 -59.36 140.90 -56.08Q142.26 -52.79 142.26 -48.62Q142.26 -45.38 141.16 -42.51Q140.06 -39.64 137.72 -37.35Q135.37 -35.05 131.67 -33.54Q127.96 -32.03 122.85 -31.40V-30.57Q129.53 -30.25 133.18 -27.96Q136.83 -25.66 138.66 -22.17Q140.48 -18.67 141.42 -14.61L145.07 0.00H126.40L123.79 -13.67Q123.16 -17.21 121.86 -19.40Q120.56 -21.60 118.16 -22.64Q115.76 -23.68 111.79 -23.68H103.24V0.00ZM103.24 -36.72H113.04Q118.78 -36.72 121.81 -38.91Q124.83 -41.10 124.83 -45.59Q124.83 -50.49 122.02 -52.89Q119.20 -55.29 113.46 -55.29H103.24Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.40695;0.47983;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.21562;0.40695;0.47983;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="97.9,-160.9;97.9,-160.9;-82.2,17.9;-82.2,-44;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.21562;0.40695;0.47983;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="4.4 114.6 -34.4;4.4 114.6 -34.4;3.4 114.6 -34.4;-2.6 114.6 -34.4;0 114.6 -34.4;0 114.6 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M141.92 0.00 164.98 -68.85H186.88L209.84 0.00H191.58L176.14 -55.19H175.51L159.97 0.00ZM154.96 -12.21V-24.10H198.88V-12.21Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.41302;0.48591;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.21866;0.41302;0.48591;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-141.5,-35.2;-141.5,-35.2;62.6,-161.2;75.9,-175.5;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.21866;0.41302;0.48591;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="21 175.9 -34.4;21 175.9 -34.4;-2.6 175.9 -34.4;-32.2 175.9 -34.4;0 175.9 -34.4;0 175.9 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M208.98 0.00V-68.85H225.88V0.00ZM211.90 0.00V-14.40H252.07V0.00Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.4191;0.49198;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.2217;0.4191;0.49198;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="108.8,-9.8;108.8,-9.8;194,23.9;176.7,-174.4;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.2217;0.4191;0.49198;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-4.3 228.8 -34.4;-4.3 228.8 -34.4;14.1 228.8 -34.4;5.8 228.8 -34.4;0 228.8 -34.4;0 228.8 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M259.24 0.00V-14.08H277.08Q281.05 -14.08 284.44 -15.75Q287.83 -17.42 289.91 -21.75Q292.00 -26.08 292.00 -34.22Q292.00 -40.06 290.85 -44.03Q289.71 -47.99 287.57 -50.34Q285.43 -52.68 282.35 -53.73Q279.27 -54.77 275.31 -54.77H259.24V-68.85H274.58Q286.78 -68.85 294.50 -64.79Q302.22 -60.72 305.88 -53.15Q309.53 -45.59 309.53 -35.05Q309.53 -26.92 307.70 -20.97Q305.88 -15.02 302.64 -10.95Q299.41 -6.89 295.34 -4.49Q291.27 -2.09 286.68 -1.04Q282.09 0.00 277.60 0.00ZM251.52 0.00V-68.85H268.42V0.00Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.42517;0.49806;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.22473;0.42517;0.49806;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-26.1,-24.1;-26.1,-24.1;-17.6,23.9;-71.7,23.9;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.22473;0.42517;0.49806;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="5.8 279.8 -34.4;5.8 279.8 -34.4;17.5 279.8 -34.4;-33.9 279.8 -34.4;0 279.8 -34.4;0 279.8 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M341.12 1.46Q333.81 1.46 327.97 -0.83Q322.13 -3.13 318.06 -7.62Q313.99 -12.10 311.85 -18.78Q309.71 -25.46 309.71 -34.11Q309.71 -46.42 313.73 -54.41Q317.75 -62.39 325.00 -66.35Q332.25 -70.32 341.74 -70.32Q349.04 -70.32 354.83 -68.07Q360.62 -65.83 364.69 -61.34Q368.76 -56.86 370.90 -50.13Q373.04 -43.40 373.04 -34.53Q373.04 -25.56 370.80 -18.78Q368.55 -12.00 364.33 -7.51Q360.10 -3.03 354.21 -0.78Q348.31 1.46 341.12 1.46ZM341.74 -12.41Q346.44 -12.41 349.51 -14.76Q352.59 -17.11 354.10 -21.86Q355.62 -26.60 355.62 -33.80Q355.62 -41.42 354.00 -46.42Q352.38 -51.43 349.20 -53.99Q346.02 -56.54 341.22 -56.54Q336.63 -56.54 333.50 -54.09Q330.37 -51.64 328.80 -46.74Q327.24 -41.83 327.24 -34.53Q327.24 -29.00 328.13 -24.83Q329.01 -20.66 330.84 -17.89Q332.66 -15.13 335.38 -13.77Q338.09 -12.41 341.74 -12.41Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.43124;0.50413;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.22777;0.43124;0.50413;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-124.8,-163.1;-124.8,-163.1;-72.9,23.9;246.5,23.9;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.22777;0.43124;0.50413;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-29.9 341.5 -34.4;-29.9 341.5 -34.4;1.7 341.5 -34.4;-24.2 341.5 -34.4;0 341.5 -34.4;0 341.5 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M372.29 -20.34V-35.16H401.81V-20.34Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.43732;0.5102;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.23081;0.43732;0.5102;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-196.7,-115.3;-196.7,-115.3;103.3,-12;-48.7,14.1;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.23081;0.43732;0.5102;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="12.1 387.0 -34.4;12.1 387.0 -34.4;3.5 387.0 -34.4;-6.2 387.0 -34.4;0 387.0 -34.4;0 387.0 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M402.10 0.00V-68.85H429.85Q436.22 -68.85 441.17 -67.71Q446.13 -66.56 449.62 -64.32Q453.12 -62.07 454.94 -58.74Q456.77 -55.40 456.77 -50.91Q456.77 -46.74 455.05 -43.40Q453.32 -40.06 449.52 -38.03Q445.71 -35.99 439.55 -35.47V-34.53Q450.09 -34.01 454.84 -29.63Q459.58 -25.25 459.58 -18.05Q459.58 -12.00 456.45 -8.03Q453.32 -4.07 447.33 -2.03Q441.33 0.00 432.46 0.00ZM419.00 -13.56H431.73Q437.05 -13.56 439.97 -15.49Q442.89 -17.42 442.89 -20.97Q442.89 -24.93 439.61 -26.86Q436.32 -28.79 429.75 -28.79H419.00ZM419.00 -40.27H428.08Q434.02 -40.27 437.15 -42.25Q440.28 -44.23 440.28 -48.09Q440.28 -51.75 437.47 -53.57Q434.65 -55.40 429.02 -55.40H419.00Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.44339;0.51628;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.23384;0.44339;0.51628;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-12.1,23.9;-12.1,23.9;-106.5,18.8;132.9,-161.9;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.23384;0.44339;0.51628;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="0.1 428.9 -34.4;0.1 428.9 -34.4;-4.1 428.9 -34.4;7.3 428.9 -34.4;0 428.9 -34.4;0 428.9 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M454.76 0.00 477.82 -68.85H499.73L522.68 0.00H504.42L488.98 -55.19H488.36L472.81 0.00ZM467.80 -12.21V-24.10H511.73V-12.21Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.44947;0.52235;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.23688;0.44947;0.52235;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="43.6,23.9;43.6,23.9;-62.4,23.9;-211.5,-52.1;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.23688;0.44947;0.52235;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="13.4 488.7 -34.4;13.4 488.7 -34.4;-24.3 488.7 -34.4;16.1 488.7 -34.4;0 488.7 -34.4;0 488.7 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M521.82 0.00V-68.85H550.41Q555.00 -68.85 559.12 -68.07Q563.24 -67.29 566.63 -65.73Q570.02 -64.16 572.52 -61.76Q575.03 -59.36 576.38 -56.08Q577.74 -52.79 577.74 -48.62Q577.74 -45.38 576.65 -42.51Q575.55 -39.64 573.20 -37.35Q570.86 -35.05 567.15 -33.54Q563.45 -32.03 558.34 -31.40V-30.57Q565.01 -30.25 568.66 -27.96Q572.32 -25.66 574.14 -22.17Q575.97 -18.67 576.91 -14.61L580.56 0.00H561.88L559.28 -13.67Q558.65 -17.21 557.35 -19.40Q556.04 -21.60 553.64 -22.64Q551.24 -23.68 547.28 -23.68H538.72V0.00ZM538.72 -36.72H548.53Q554.27 -36.72 557.29 -38.91Q560.32 -41.10 560.32 -45.59Q560.32 -50.49 557.50 -52.89Q554.68 -55.29 548.95 -55.29H538.72Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.45554;0.52843;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.23992;0.45554;0.52843;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="109,-130.3;109,-130.3;-139.6,-79.7;58.7,23.9;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.23992;0.45554;0.52843;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="25.8 549.7 -34.4;25.8 549.7 -34.4;2 549.7 -34.4;16.3 549.7 -34.4;0 549.7 -34.4;0 549.7 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M580.54 0.00V-68.85H608.29Q614.65 -68.85 619.61 -67.71Q624.56 -66.56 628.06 -64.32Q631.55 -62.07 633.38 -58.74Q635.20 -55.40 635.20 -50.91Q635.20 -46.74 633.48 -43.40Q631.76 -40.06 627.95 -38.03Q624.14 -35.99 617.99 -35.47V-34.53Q628.53 -34.01 633.27 -29.63Q638.02 -25.25 638.02 -18.05Q638.02 -12.00 634.89 -8.03Q631.76 -4.07 625.76 -2.03Q619.76 0.00 610.89 0.00ZM597.44 -13.56H610.16Q615.48 -13.56 618.41 -15.49Q621.33 -17.42 621.33 -20.97Q621.33 -24.93 618.04 -26.86Q614.75 -28.79 608.18 -28.79H597.44ZM597.44 -40.27H606.51Q612.46 -40.27 615.59 -42.25Q618.72 -44.23 618.72 -48.09Q618.72 -51.75 615.90 -53.57Q613.08 -55.40 607.45 -55.40H597.44Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.46161;0.5345;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.24295;0.46161;0.5345;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="107.4,-72.4;107.4,-72.4;73.6,23.9;51.2,-41;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.24295;0.46161;0.5345;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="10.1 608.0 -34.4;10.1 608.0 -34.4;-21.1 608.0 -34.4;19.4 608.0 -34.4;0 608.0 -34.4;0 608.0 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M668.36 1.46Q661.05 1.46 655.21 -0.83Q649.37 -3.13 645.30 -7.62Q641.23 -12.10 639.09 -18.78Q636.95 -25.46 636.95 -34.11Q636.95 -46.42 640.97 -54.41Q644.99 -62.39 652.24 -66.35Q659.49 -70.32 668.98 -70.32Q676.28 -70.32 682.07 -68.07Q687.86 -65.83 691.93 -61.34Q696.00 -56.86 698.14 -50.13Q700.28 -43.40 700.28 -34.53Q700.28 -25.56 698.04 -18.78Q695.79 -12.00 691.57 -7.51Q687.34 -3.03 681.45 -0.78Q675.55 1.46 668.36 1.46ZM668.98 -12.41Q673.68 -12.41 676.75 -14.76Q679.83 -17.11 681.34 -21.86Q682.86 -26.60 682.86 -33.80Q682.86 -41.42 681.24 -46.42Q679.62 -51.43 676.44 -53.99Q673.26 -56.54 668.46 -56.54Q663.87 -56.54 660.74 -54.09Q657.61 -51.64 656.04 -46.74Q654.48 -41.83 654.48 -34.53Q654.48 -29.00 655.37 -24.83Q656.25 -20.66 658.08 -17.89Q659.90 -15.13 662.62 -13.77Q665.33 -12.41 668.98 -12.41Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.46769;0.54057;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.24599;0.46769;0.54057;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="117.1,23.9;117.1,23.9;-111.4,-58.3;-8.2,23.9;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.24599;0.46769;0.54057;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="14.4 668.5 -34.4;14.4 668.5 -34.4;7.9 668.5 -34.4;16.4 668.5 -34.4;0 668.5 -34.4;0 668.5 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M728.63 1.46Q721.33 1.46 715.85 -0.21Q710.38 -1.88 706.72 -5.01Q703.07 -8.14 701.35 -12.57Q699.63 -17.01 699.84 -22.43L715.49 -25.87Q715.70 -21.07 717.52 -18.10Q719.35 -15.13 722.48 -13.72Q725.61 -12.31 729.47 -12.31Q732.60 -12.31 735.00 -13.09Q737.40 -13.88 738.80 -15.28Q740.21 -16.69 740.21 -18.57Q740.21 -21.07 738.34 -22.69Q736.46 -24.31 733.17 -25.46Q729.88 -26.60 725.71 -27.75Q721.23 -29.00 716.79 -30.52Q712.36 -32.03 708.71 -34.32Q705.06 -36.62 702.81 -40.27Q700.57 -43.92 700.57 -49.35Q700.57 -56.02 703.96 -60.72Q707.35 -65.41 713.35 -67.86Q719.35 -70.32 727.07 -70.32Q735.21 -70.32 741.57 -67.55Q747.93 -64.79 751.38 -59.47Q754.82 -54.15 754.09 -46.42L738.65 -43.92Q738.75 -47.05 738.02 -49.45Q737.29 -51.85 735.78 -53.52Q734.27 -55.19 731.97 -56.08Q729.68 -56.96 726.55 -56.96Q723.31 -56.96 721.17 -56.13Q719.04 -55.29 717.94 -53.83Q716.84 -52.37 716.84 -50.49Q716.84 -48.30 718.51 -46.84Q720.18 -45.38 723.31 -44.29Q726.44 -43.19 730.72 -42.04Q735.21 -40.79 739.74 -39.28Q744.28 -37.77 748.14 -35.31Q752.00 -32.86 754.35 -29.00Q756.70 -25.14 756.70 -19.20Q756.70 -12.31 753.10 -7.72Q749.50 -3.13 743.19 -0.83Q736.87 1.46 728.63 1.46Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.47376;0.54665;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.24903;0.47376;0.54665;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="63.3,23.9;63.3,23.9;-214.1,23.9;63.3,23.9;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.24903;0.47376;0.54665;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-15.6 727.1 -34.4;-15.6 727.1 -34.4;9.3 727.1 -34.4;-0.3 727.1 -34.4;0 727.1 -34.4;0 727.1 -34.4"/>
+        </g>
+      </g>
+      <g transform="translate(0 245.1)">
+        <g>
+          <path d="M751.67 0.00 774.72 -68.85H796.63L819.58 0.00H801.33L785.89 -55.19H785.26L769.72 0.00ZM764.71 -12.21V-24.10H808.63V-12.21Z" fill="#D6D5CE">
+            <animate attributeName="fill" dur="20.58s" repeatCount="indefinite"
+              keyTimes="0;0.47983;0.55272;1"
+              values="#D6D5CE;#D6D5CE;#1A1A17;#1A1A17"/>
+          </path>
+          <animateTransform attributeName="transform" type="translate" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.25207;0.47983;0.55272;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="-227.7,23.9;-227.7,23.9;-64.7,23.9;-30.7,-139.3;0,0;0,0"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="20.58s"
+            repeatCount="indefinite" calcMode="spline" keyTimes="0;0.0243;0.25207;0.47983;0.55272;1"
+            keySplines="0 0 1 1;0.45 0 0.55 1;0.45 0 0.55 1;0.22 1 0.36 1;0 0 1 1" values="22.3 785.6 -34.4;22.3 785.6 -34.4;27.6 785.6 -34.4;31.2 785.6 -34.4;0 785.6 -34.4;0 785.6 -34.4"/>
+        </g>
+      </g>
+    </g>
+
+    
+    <rect x="130" y="382" width="640" height="148.8" rx="12"
+      fill="#F4F1EA" stroke="#00000019" stroke-width="1"/>
+    <path d="M130,412 v-18 a12,12 0 0 1 12,-12
+      h616 a12,12 0 0 1 12,12 v18 z" fill="#ECEAE3"/>
+    <line x1="130" y1="412" x2="770" y2="412" stroke="#00000019" stroke-width="1"/>
+    <circle cx="148" cy="397" r="6" fill="#FF5F57"/><circle cx="168" cy="397" r="6" fill="#FEBC2E"/><circle cx="188" cy="397" r="6" fill="#28C840"/>
+    <g transform="translate(419.7 400.9)"><path d="M1.51 0.00V-7.70H2.36V-3.19H2.55L4.63 -5.46H5.69V-5.39L3.42 -2.89V-2.69L5.95 -0.07V0.00H4.89L2.57 -2.40H2.36V0.00Z M10.20 0.15Q9.44 0.15 8.80 -0.17Q8.16 -0.49 7.77 -1.12Q7.38 -1.75 7.38 -2.64V-2.77Q7.38 -3.65 7.77 -4.29Q8.16 -4.93 8.80 -5.27Q9.44 -5.61 10.20 -5.61Q10.89 -5.61 11.43 -5.34Q11.98 -5.07 12.33 -4.60Q12.67 -4.12 12.77 -3.52L11.91 -3.32Q11.87 -3.71 11.66 -4.04Q11.45 -4.38 11.08 -4.59Q10.71 -4.80 10.17 -4.80Q9.65 -4.80 9.21 -4.54Q8.78 -4.28 8.52 -3.82Q8.26 -3.37 8.26 -2.77V-2.64Q8.26 -2.02 8.52 -1.58Q8.78 -1.13 9.22 -0.90Q9.66 -0.66 10.20 -0.66Q10.74 -0.66 11.10 -0.87Q11.47 -1.09 11.68 -1.42Q11.88 -1.76 11.93 -2.13L12.79 -1.94Q12.68 -1.33 12.34 -0.86Q12.00 -0.38 11.46 -0.12Q10.91 0.15 10.20 0.15Z M15.75 0.15Q15.21 0.15 14.79 -0.14Q14.37 -0.43 14.12 -0.96Q13.88 -1.50 13.88 -2.23V-2.43Q13.88 -3.17 14.13 -3.70Q14.38 -4.23 14.79 -4.53Q15.21 -4.82 15.73 -4.82Q16.24 -4.82 16.51 -4.63Q16.77 -4.43 16.96 -4.07H17.09V-4.66H17.95V-1.12Q17.95 -0.79 18.25 -0.79H18.51Q18.81 -0.79 18.81 -1.12V-4.16Q18.81 -4.87 18.47 -5.24Q18.14 -5.61 17.42 -5.61H14.32V-6.40H17.51Q18.52 -6.40 19.10 -5.87Q19.67 -5.33 19.67 -4.25V-0.86Q19.67 -0.48 19.43 -0.24Q19.20 0.00 18.82 0.00H17.94Q17.53 0.00 17.35 -0.21Q17.16 -0.43 17.16 -0.73H17.03Q16.90 -0.32 16.58 -0.08Q16.27 0.15 15.75 0.15ZM15.92 -0.66Q16.37 -0.66 16.62 -0.87Q16.87 -1.08 16.98 -1.44Q17.09 -1.79 17.09 -2.23V-2.43Q17.09 -2.85 16.98 -3.21Q16.87 -3.56 16.62 -3.78Q16.37 -4.00 15.92 -4.00Q15.37 -4.00 15.05 -3.55Q14.74 -3.09 14.74 -2.43V-2.23Q14.74 -1.54 15.05 -1.10Q15.37 -0.66 15.92 -0.66Z M20.71 0.00V-0.79H21.97V-4.66H20.84V-5.46H22.82V-4.73H22.96Q23.17 -5.18 23.56 -5.40Q23.95 -5.61 24.43 -5.61Q25.24 -5.61 25.76 -5.07Q26.27 -4.53 26.30 -3.50L25.40 -3.37Q25.40 -4.12 25.04 -4.46Q24.67 -4.80 24.14 -4.80Q23.47 -4.80 23.15 -4.31Q22.82 -3.82 22.82 -3.10V-0.79H24.21V0.00Z M30.32 0.15Q29.53 0.15 28.94 -0.20Q28.34 -0.56 27.99 -1.19Q27.65 -1.83 27.65 -2.66V-2.93Q27.65 -3.70 28.01 -4.30Q28.36 -4.91 28.97 -5.26Q29.58 -5.61 30.34 -5.61Q31.01 -5.61 31.50 -5.37Q31.99 -5.13 32.30 -4.75Q32.61 -4.38 32.76 -3.95Q32.91 -3.53 32.91 -3.17V-2.46H28.51Q28.54 -1.66 29.02 -1.16Q29.50 -0.66 30.34 -0.66Q31.12 -0.66 31.50 -0.99Q31.89 -1.32 32.03 -1.78L32.85 -1.56Q32.61 -0.80 31.99 -0.32Q31.37 0.15 30.32 0.15ZM28.53 -3.26H32.05Q32.03 -3.73 31.78 -4.08Q31.54 -4.42 31.15 -4.61Q30.77 -4.80 30.34 -4.80Q29.61 -4.80 29.12 -4.36Q28.62 -3.92 28.53 -3.26Z M36.73 0.15Q36.01 0.15 35.44 -0.17Q34.86 -0.49 34.52 -1.12Q34.18 -1.74 34.18 -2.64V-2.82Q34.18 -3.71 34.52 -4.33Q34.86 -4.96 35.44 -5.29Q36.01 -5.61 36.71 -5.61Q37.27 -5.61 37.72 -5.36Q38.18 -5.11 38.44 -4.60H38.58V-5.46H39.43V-1.12Q39.43 -0.79 39.73 -0.79H40.01V0.00H39.42Q39.08 0.00 38.83 -0.22Q38.58 -0.44 38.58 -0.92H38.44Q38.18 -0.38 37.71 -0.12Q37.25 0.15 36.73 0.15ZM36.82 -0.66Q37.59 -0.66 38.08 -1.21Q38.58 -1.76 38.58 -2.66V-2.79Q38.58 -3.38 38.35 -3.83Q38.11 -4.28 37.72 -4.54Q37.32 -4.80 36.82 -4.80Q36.31 -4.80 35.91 -4.55Q35.52 -4.30 35.29 -3.86Q35.06 -3.41 35.06 -2.82V-2.64Q35.06 -1.72 35.55 -1.19Q36.05 -0.66 36.82 -0.66Z M43.66 0.15Q42.93 0.15 42.34 -0.17Q41.74 -0.49 41.39 -1.12Q41.04 -1.75 41.04 -2.64V-2.82Q41.04 -3.71 41.40 -4.33Q41.76 -4.95 42.34 -5.28Q42.93 -5.61 43.64 -5.61Q44.20 -5.61 44.69 -5.36Q45.18 -5.11 45.44 -4.60H45.57V-7.70H46.43V0.00H45.57V-0.84H45.44Q45.18 -0.33 44.67 -0.09Q44.15 0.15 43.66 0.15ZM43.75 -0.66Q44.26 -0.66 44.68 -0.91Q45.09 -1.16 45.33 -1.61Q45.57 -2.06 45.57 -2.66V-2.79Q45.57 -3.38 45.33 -3.83Q45.08 -4.28 44.67 -4.54Q44.25 -4.80 43.75 -4.80Q43.23 -4.80 42.82 -4.55Q42.40 -4.30 42.16 -3.86Q41.92 -3.41 41.92 -2.82V-2.64Q41.92 -2.03 42.16 -1.59Q42.39 -1.14 42.81 -0.90Q43.23 -0.66 43.75 -0.66Z M47.65 0.00V-5.46H48.51V-4.86H48.64Q48.78 -5.25 49.06 -5.43Q49.33 -5.61 49.71 -5.61Q50.10 -5.61 50.36 -5.40Q50.62 -5.19 50.72 -4.86H50.85Q51.23 -5.61 52.04 -5.61Q52.66 -5.61 52.99 -5.22Q53.33 -4.83 53.33 -4.20V0.00H52.47V-3.92Q52.47 -4.30 52.29 -4.55Q52.12 -4.80 51.73 -4.80Q51.37 -4.80 51.14 -4.52Q50.92 -4.25 50.92 -3.70V0.00H50.06V-3.96Q50.06 -4.32 49.86 -4.56Q49.66 -4.80 49.33 -4.80Q48.94 -4.80 48.72 -4.51Q48.51 -4.22 48.51 -3.76V0.00Z M57.24 0.15Q56.46 0.15 55.86 -0.20Q55.26 -0.56 54.92 -1.19Q54.58 -1.83 54.58 -2.66V-2.93Q54.58 -3.70 54.93 -4.30Q55.29 -4.91 55.90 -5.26Q56.51 -5.61 57.27 -5.61Q57.94 -5.61 58.43 -5.37Q58.92 -5.13 59.23 -4.75Q59.54 -4.38 59.69 -3.95Q59.84 -3.53 59.84 -3.17V-2.46H55.44Q55.47 -1.66 55.95 -1.16Q56.43 -0.66 57.27 -0.66Q58.05 -0.66 58.43 -0.99Q58.82 -1.32 58.96 -1.78L59.77 -1.56Q59.54 -0.80 58.92 -0.32Q58.30 0.15 57.24 0.15ZM55.46 -3.26H58.98Q58.96 -3.73 58.71 -4.08Q58.46 -4.42 58.08 -4.61Q57.69 -4.80 57.27 -4.80Q56.54 -4.80 56.04 -4.36Q55.55 -3.92 55.46 -3.26Z" fill="#7C7A72"/></g>
+    
+    <rect x="138" y="418.0" rx="4"
+        width="624" height="18.5" fill="#D4A02B" opacity="0">
+        <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+          keyTimes="0;0.21866;0.2206;0.23032;1" values="0;0;0.28;0;0"/>
+      </rect>
+    <path d="M142,420.3 l6,5 l-6,5" fill="none"
+    stroke="#3FA34D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(157 430.5)">
+      <g clip-path="url(#flight-sort)"><path d="M4.71 0.21Q3.55 0.21 2.82 -0.19Q2.08 -0.58 1.73 -1.21Q1.36 -1.83 1.32 -2.49L2.43 -2.76Q2.50 -1.91 3.10 -1.39Q3.69 -0.87 4.65 -0.87Q5.47 -0.87 5.98 -1.19Q6.48 -1.51 6.48 -2.10Q6.48 -2.73 5.98 -3.00Q5.49 -3.27 4.38 -3.34Q3.10 -3.44 2.41 -3.95Q1.71 -4.47 1.71 -5.43V-5.52Q1.71 -6.22 2.10 -6.70Q2.49 -7.17 3.10 -7.41Q3.72 -7.65 4.41 -7.65Q5.40 -7.65 6.05 -7.31Q6.71 -6.97 7.05 -6.44Q7.39 -5.91 7.47 -5.34L6.36 -5.07Q6.30 -5.79 5.79 -6.20Q5.28 -6.60 4.47 -6.60Q3.84 -6.60 3.34 -6.33Q2.85 -6.06 2.85 -5.52Q2.85 -4.98 3.31 -4.70Q3.76 -4.41 4.98 -4.32Q6.27 -4.21 6.96 -3.70Q7.65 -3.18 7.65 -2.19V-2.10Q7.65 -1.02 6.83 -0.41Q6.01 0.21 4.71 0.21Z M13.77 0.21Q12.78 0.21 11.93 -0.24Q11.08 -0.69 10.56 -1.54Q10.04 -2.40 10.04 -3.63V-3.81Q10.04 -5.02 10.56 -5.89Q11.08 -6.75 11.93 -7.20Q12.78 -7.65 13.77 -7.65Q14.76 -7.65 15.61 -7.20Q16.45 -6.75 16.98 -5.89Q17.50 -5.02 17.50 -3.81V-3.63Q17.50 -2.40 16.98 -1.54Q16.45 -0.69 15.61 -0.24Q14.76 0.21 13.77 0.21ZM13.77 -0.90Q14.49 -0.90 15.06 -1.23Q15.63 -1.56 15.97 -2.17Q16.30 -2.79 16.30 -3.63V-3.81Q16.30 -4.62 15.97 -5.23Q15.63 -5.85 15.05 -6.20Q14.47 -6.54 13.77 -6.54Q13.06 -6.54 12.49 -6.20Q11.91 -5.85 11.57 -5.23Q11.23 -4.62 11.23 -3.81V-3.63Q11.23 -2.79 11.57 -2.17Q11.91 -1.56 12.49 -1.23Q13.06 -0.90 13.77 -0.90Z M19.06 0.00V-1.08H20.77V-6.36H19.25V-7.44H21.95V-6.45H22.12Q22.41 -7.06 22.94 -7.36Q23.48 -7.65 24.13 -7.65Q25.24 -7.65 25.94 -6.91Q26.64 -6.18 26.68 -4.77L25.45 -4.59Q25.45 -5.62 24.96 -6.08Q24.46 -6.54 23.74 -6.54Q22.83 -6.54 22.39 -5.87Q21.95 -5.21 21.95 -4.23V-1.08H23.84V0.00Z M32.09 0.00Q31.57 0.00 31.25 -0.33Q30.93 -0.66 30.93 -1.17V-6.36H28.59V-7.44H30.93V-10.50H32.10V-7.44H34.98V-6.36H32.10V-1.53Q32.10 -1.08 32.50 -1.08H34.62V0.00Z M37.81 0.00V-10.50H40.34L43.36 -0.54H43.55V-10.50H44.80V0.00H42.28L39.25 -9.96H39.07V0.00Z M50.09 0.21Q49.11 0.21 48.32 -0.23Q47.53 -0.67 47.07 -1.52Q46.60 -2.37 46.60 -3.60V-3.84Q46.60 -5.05 47.07 -5.91Q47.53 -6.76 48.32 -7.21Q49.11 -7.65 50.05 -7.65Q50.82 -7.65 51.44 -7.31Q52.06 -6.97 52.42 -6.27H52.60V-7.44H53.77V-1.53Q53.77 -1.08 54.18 -1.08H54.55V0.00H53.76Q53.30 0.00 52.95 -0.30Q52.60 -0.60 52.60 -1.26H52.42Q52.06 -0.53 51.43 -0.16Q50.79 0.21 50.09 0.21ZM50.20 -0.90Q51.25 -0.90 51.93 -1.65Q52.60 -2.40 52.60 -3.63V-3.81Q52.60 -4.60 52.29 -5.22Q51.98 -5.83 51.44 -6.19Q50.89 -6.54 50.20 -6.54Q49.52 -6.54 48.97 -6.20Q48.43 -5.87 48.12 -5.26Q47.80 -4.65 47.80 -3.84V-3.60Q47.80 -2.34 48.48 -1.62Q49.16 -0.90 50.20 -0.90Z M55.80 0.00V-7.44H56.97V-6.63H57.15Q57.34 -7.15 57.72 -7.40Q58.09 -7.65 58.60 -7.65Q59.14 -7.65 59.50 -7.37Q59.85 -7.08 59.98 -6.63H60.16Q60.67 -7.65 61.78 -7.65Q62.62 -7.65 63.08 -7.12Q63.54 -6.58 63.54 -5.73V0.00H62.37V-5.34Q62.37 -5.87 62.13 -6.20Q61.89 -6.54 61.36 -6.54Q60.87 -6.54 60.56 -6.17Q60.25 -5.79 60.25 -5.04V0.00H59.09V-5.40Q59.09 -5.89 58.81 -6.22Q58.55 -6.54 58.09 -6.54Q57.55 -6.54 57.26 -6.15Q56.97 -5.76 56.97 -5.13V0.00Z M68.88 0.21Q67.81 0.21 67.00 -0.28Q66.18 -0.77 65.71 -1.63Q65.25 -2.49 65.25 -3.63V-3.99Q65.25 -5.04 65.73 -5.87Q66.21 -6.69 67.04 -7.17Q67.87 -7.65 68.91 -7.65Q69.82 -7.65 70.49 -7.32Q71.16 -6.99 71.59 -6.48Q72.01 -5.97 72.22 -5.39Q72.42 -4.81 72.42 -4.32V-3.36H66.42Q66.46 -2.27 67.12 -1.58Q67.77 -0.90 68.91 -0.90Q69.97 -0.90 70.50 -1.35Q71.02 -1.80 71.22 -2.43L72.33 -2.13Q72.01 -1.09 71.17 -0.44Q70.32 0.21 68.88 0.21ZM66.45 -4.44H71.25Q71.22 -5.08 70.88 -5.56Q70.54 -6.03 70.02 -6.29Q69.49 -6.54 68.91 -6.54Q67.92 -6.54 67.24 -5.94Q66.57 -5.34 66.45 -4.44Z M81.09 2.34Q80.04 2.34 79.09 1.95Q78.13 1.56 77.39 0.82Q76.65 0.07 76.22 -0.98Q75.78 -2.04 75.78 -3.36V-7.14Q75.78 -8.47 76.22 -9.52Q76.65 -10.57 77.39 -11.32Q78.13 -12.06 79.09 -12.45Q80.04 -12.84 81.09 -12.84H81.63V-11.73H81.09Q80.01 -11.73 79.06 -11.17Q78.12 -10.61 77.53 -9.56Q76.95 -8.52 76.95 -7.08V-3.42Q76.95 -1.98 77.53 -0.94Q78.12 0.10 79.06 0.67Q80.01 1.23 81.09 1.23H81.63V2.34Z M83.61 2.34V1.23H84.15Q85.23 1.23 86.17 0.67Q87.12 0.10 87.70 -0.94Q88.29 -1.98 88.29 -3.42V-7.08Q88.29 -8.52 87.70 -9.56Q87.12 -10.61 86.17 -11.17Q85.23 -11.73 84.15 -11.73H83.61V-12.84H84.15Q85.20 -12.84 86.15 -12.45Q87.10 -12.06 87.85 -11.32Q88.59 -10.57 89.02 -9.52Q89.46 -8.47 89.46 -7.14V-3.36Q89.46 -2.04 89.02 -0.98Q88.59 0.07 87.85 0.82Q87.10 1.56 86.15 1.95Q85.20 2.34 84.15 2.34Z" fill="#2B2A27"/></g>
+      <g opacity="0">
+        <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite" calcMode="discrete"
+          keyTimes="0;0;0.55296;1" values="0;1;0;0"/>
+        <rect x="0" y="-15.8" width="2.4" height="18.0" fill="#2B2A27">
+          <animate attributeName="x" calcMode="discrete" dur="20.58s" repeatCount="indefinite"
+            keyTimes="0;0.17007;0.17007;0.17493;0.17979;0.18465;0.1895;0.19436;0.19922;0.20408;0.20894;0.2138;0.21866;1" values="2;2;2;11.18;20.36;29.54;38.72;47.9;57.08;66.26;75.44;84.62;93.8;93.8"/>
+          <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.49;0.5;0.99;1" dur="1.06s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+    <g transform="translate(142 459.5)" opacity="0">
+        <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+          keyTimes="0;0.21866;0.21914;0.55296;1" values="0;0;1;1;0"/>
+        <path d="M0.70 0.00V-1.08H2.42V-6.36H0.89V-7.44H3.58V-6.45H3.76Q4.05 -7.06 4.58 -7.36Q5.12 -7.65 5.77 -7.65Q6.88 -7.65 7.58 -6.91Q8.28 -6.18 8.32 -4.77L7.09 -4.59Q7.09 -5.62 6.60 -6.08Q6.10 -6.54 5.38 -6.54Q4.47 -6.54 4.03 -5.87Q3.58 -5.21 3.58 -4.23V-1.08H5.47V0.00Z M13.18 0.21Q11.96 0.21 11.18 -0.60Q10.39 -1.41 10.39 -3.00V-7.44H11.56V-3.15Q11.56 -1.98 12.04 -1.44Q12.52 -0.90 13.52 -0.90Q14.58 -0.90 15.19 -1.63Q15.79 -2.35 15.79 -3.57V-7.44H16.96V0.00H15.79V-1.35H15.61Q15.25 -0.63 14.67 -0.21Q14.09 0.21 13.18 0.21Z M19.66 0.00V-7.44H20.84V-6.18H21.02Q21.70 -7.65 23.41 -7.65Q24.70 -7.65 25.47 -6.85Q26.23 -6.04 26.23 -4.44V0.00H25.06V-4.20Q25.06 -5.37 24.54 -5.96Q24.02 -6.54 23.11 -6.54Q22.06 -6.54 21.45 -5.81Q20.84 -5.08 20.84 -3.87V0.00Z M28.84 0.00V-7.44H30.02V-6.18H30.20Q30.88 -7.65 32.59 -7.65Q33.88 -7.65 34.65 -6.85Q35.41 -6.04 35.41 -4.44V0.00H34.24V-4.20Q34.24 -5.37 33.72 -5.96Q33.20 -6.54 32.30 -6.54Q31.24 -6.54 30.63 -5.81Q30.02 -5.08 30.02 -3.87V0.00Z M41.38 -8.61Q40.96 -8.61 40.65 -8.93Q40.34 -9.24 40.34 -9.66Q40.34 -10.09 40.65 -10.40Q40.96 -10.71 41.38 -10.71Q41.82 -10.71 42.13 -10.40Q42.44 -10.09 42.44 -9.66Q42.44 -9.24 42.13 -8.93Q41.82 -8.61 41.38 -8.61ZM38.20 0.00V-1.08H40.81V-6.36H38.48V-7.44H41.98V-1.08H44.41V0.00Z M47.20 0.00V-7.44H48.38V-6.18H48.55Q49.24 -7.65 50.95 -7.65Q52.24 -7.65 53.01 -6.85Q53.77 -6.04 53.77 -4.44V0.00H52.60V-4.20Q52.60 -5.37 52.08 -5.96Q51.55 -6.54 50.66 -6.54Q49.60 -6.54 48.99 -5.81Q48.38 -5.08 48.38 -3.87V0.00Z M57.21 3.00V1.92H61.63Q62.04 1.92 62.04 1.47V-1.14H61.86Q61.50 -0.46 60.88 -0.13Q60.25 0.21 59.52 0.21Q58.53 0.21 57.70 -0.23Q56.86 -0.67 56.36 -1.53Q55.86 -2.38 55.86 -3.60V-3.84Q55.86 -5.05 56.37 -5.90Q56.88 -6.75 57.70 -7.20Q58.53 -7.65 59.49 -7.65Q60.30 -7.65 60.91 -7.30Q61.53 -6.94 61.86 -6.27H62.04V-7.44H63.21V1.83Q63.21 2.34 62.89 2.67Q62.56 3.00 62.05 3.00ZM59.55 -0.90Q60.25 -0.90 60.82 -1.24Q61.38 -1.57 61.71 -2.19Q62.04 -2.80 62.04 -3.63V-3.81Q62.04 -4.60 61.70 -5.22Q61.36 -5.83 60.80 -6.19Q60.24 -6.54 59.55 -6.54Q58.84 -6.54 58.28 -6.20Q57.72 -5.87 57.39 -5.26Q57.06 -4.65 57.06 -3.84V-3.60Q57.06 -2.77 57.38 -2.17Q57.70 -1.56 58.27 -1.23Q58.83 -0.90 59.55 -0.90Z M68.85 0.21Q68.43 0.21 68.11 -0.10Q67.80 -0.42 67.80 -0.84Q67.80 -1.27 68.11 -1.58Q68.43 -1.89 68.85 -1.89Q69.28 -1.89 69.59 -1.58Q69.90 -1.27 69.90 -0.84Q69.90 -0.42 69.59 -0.10Q69.28 0.21 68.85 0.21Z M78.03 0.21Q77.61 0.21 77.30 -0.10Q76.98 -0.42 76.98 -0.84Q76.98 -1.27 77.30 -1.58Q77.61 -1.89 78.03 -1.89Q78.47 -1.89 78.77 -1.58Q79.08 -1.27 79.08 -0.84Q79.08 -0.42 78.77 -0.10Q78.47 0.21 78.03 0.21Z M87.21 0.21Q86.79 0.21 86.47 -0.10Q86.16 -0.42 86.16 -0.84Q86.16 -1.27 86.47 -1.58Q86.79 -1.89 87.21 -1.89Q87.64 -1.89 87.95 -1.58Q88.26 -1.27 88.26 -0.84Q88.26 -0.42 87.95 -0.10Q87.64 0.21 87.21 0.21Z" fill="#8A897F"/>
+      </g>
+    <g transform="translate(142 459.5)" opacity="0">
+        <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+          keyTimes="0;0.55296;0.55345;1" values="0;0;1;1"/>
+        <path d="M0,-3.4 l4,4 l7,-9" fill="none"
+          stroke="#3FA34D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <g transform="translate(18 0)"><path d="M4.71 0.21Q3.55 0.21 2.82 -0.19Q2.08 -0.58 1.73 -1.21Q1.36 -1.83 1.32 -2.49L2.43 -2.76Q2.50 -1.91 3.10 -1.39Q3.69 -0.87 4.65 -0.87Q5.47 -0.87 5.98 -1.19Q6.48 -1.51 6.48 -2.10Q6.48 -2.73 5.98 -3.00Q5.49 -3.27 4.38 -3.34Q3.10 -3.44 2.41 -3.95Q1.71 -4.47 1.71 -5.43V-5.52Q1.71 -6.22 2.10 -6.70Q2.49 -7.17 3.10 -7.41Q3.72 -7.65 4.41 -7.65Q5.40 -7.65 6.05 -7.31Q6.71 -6.97 7.05 -6.44Q7.39 -5.91 7.47 -5.34L6.36 -5.07Q6.30 -5.79 5.79 -6.20Q5.28 -6.60 4.47 -6.60Q3.84 -6.60 3.34 -6.33Q2.85 -6.06 2.85 -5.52Q2.85 -4.98 3.31 -4.70Q3.76 -4.41 4.98 -4.32Q6.27 -4.21 6.96 -3.70Q7.65 -3.18 7.65 -2.19V-2.10Q7.65 -1.02 6.83 -0.41Q6.01 0.21 4.71 0.21Z M13.77 0.21Q12.78 0.21 11.93 -0.24Q11.08 -0.69 10.56 -1.54Q10.04 -2.40 10.04 -3.63V-3.81Q10.04 -5.02 10.56 -5.89Q11.08 -6.75 11.93 -7.20Q12.78 -7.65 13.77 -7.65Q14.76 -7.65 15.61 -7.20Q16.45 -6.75 16.98 -5.89Q17.50 -5.02 17.50 -3.81V-3.63Q17.50 -2.40 16.98 -1.54Q16.45 -0.69 15.61 -0.24Q14.76 0.21 13.77 0.21ZM13.77 -0.90Q14.49 -0.90 15.06 -1.23Q15.63 -1.56 15.97 -2.17Q16.30 -2.79 16.30 -3.63V-3.81Q16.30 -4.62 15.97 -5.23Q15.63 -5.85 15.05 -6.20Q14.47 -6.54 13.77 -6.54Q13.06 -6.54 12.49 -6.20Q11.91 -5.85 11.57 -5.23Q11.23 -4.62 11.23 -3.81V-3.63Q11.23 -2.79 11.57 -2.17Q11.91 -1.56 12.49 -1.23Q13.06 -0.90 13.77 -0.90Z M19.06 0.00V-1.08H20.77V-6.36H19.25V-7.44H21.95V-6.45H22.12Q22.41 -7.06 22.94 -7.36Q23.48 -7.65 24.13 -7.65Q25.24 -7.65 25.94 -6.91Q26.64 -6.18 26.68 -4.77L25.45 -4.59Q25.45 -5.62 24.96 -6.08Q24.46 -6.54 23.74 -6.54Q22.83 -6.54 22.39 -5.87Q21.95 -5.21 21.95 -4.23V-1.08H23.84V0.00Z M32.09 0.00Q31.57 0.00 31.25 -0.33Q30.93 -0.66 30.93 -1.17V-6.36H28.59V-7.44H30.93V-10.50H32.10V-7.44H34.98V-6.36H32.10V-1.53Q32.10 -1.08 32.50 -1.08H34.62V0.00Z M41.34 0.21Q40.27 0.21 39.46 -0.28Q38.64 -0.77 38.17 -1.63Q37.71 -2.49 37.71 -3.63V-3.99Q37.71 -5.04 38.19 -5.87Q38.67 -6.69 39.50 -7.17Q40.34 -7.65 41.37 -7.65Q42.28 -7.65 42.95 -7.32Q43.62 -6.99 44.05 -6.48Q44.48 -5.97 44.68 -5.39Q44.88 -4.81 44.88 -4.32V-3.36H38.88Q38.92 -2.27 39.58 -1.58Q40.23 -0.90 41.37 -0.90Q42.44 -0.90 42.96 -1.35Q43.48 -1.80 43.68 -2.43L44.79 -2.13Q44.48 -1.09 43.63 -0.44Q42.78 0.21 41.34 0.21ZM38.91 -4.44H43.71Q43.68 -5.08 43.34 -5.56Q43.00 -6.03 42.48 -6.29Q41.95 -6.54 41.37 -6.54Q40.38 -6.54 39.70 -5.94Q39.03 -5.34 38.91 -4.44Z M50.35 0.21Q49.36 0.21 48.55 -0.23Q47.74 -0.67 47.27 -1.53Q46.78 -2.38 46.78 -3.60V-3.84Q46.78 -5.05 47.27 -5.90Q47.76 -6.75 48.56 -7.20Q49.36 -7.65 50.32 -7.65Q51.09 -7.65 51.76 -7.31Q52.42 -6.97 52.78 -6.27H52.96V-10.50H54.13V0.00H52.96V-1.14H52.78Q52.42 -0.45 51.73 -0.12Q51.03 0.21 50.35 0.21ZM50.48 -0.90Q51.18 -0.90 51.74 -1.24Q52.30 -1.57 52.63 -2.19Q52.96 -2.80 52.96 -3.63V-3.81Q52.96 -4.60 52.63 -5.22Q52.29 -5.83 51.73 -6.19Q51.16 -6.54 50.48 -6.54Q49.77 -6.54 49.21 -6.20Q48.64 -5.87 48.31 -5.26Q47.98 -4.65 47.98 -3.84V-3.60Q47.98 -2.77 48.31 -2.17Q48.63 -1.56 49.20 -1.23Q49.77 -0.90 50.48 -0.90Z" fill="#8A897F"/></g>
+      </g>
+    
+    <rect x="138" y="476.0" rx="4"
+        width="624" height="18.5" fill="#D4A02B" opacity="0">
+        <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+          keyTimes="0;0.64772;0.64966;0.65938;1" values="0;0;0.28;0;0"/>
+      </rect>
+    <path d="M142,478.3 l6,5 l-6,5" fill="none"
+    stroke="#3FA34D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(157 488.5)">
+      <g clip-path="url(#flight-invoke)"><path d="M4.72 0.21Q3.69 0.21 2.82 -0.23Q1.95 -0.67 1.42 -1.53Q0.89 -2.38 0.89 -3.60V-3.78Q0.89 -4.98 1.42 -5.85Q1.95 -6.72 2.82 -7.18Q3.69 -7.65 4.72 -7.65Q5.67 -7.65 6.41 -7.28Q7.15 -6.92 7.63 -6.27Q8.10 -5.62 8.23 -4.80L7.06 -4.53Q7.00 -5.05 6.72 -5.51Q6.43 -5.97 5.93 -6.25Q5.43 -6.54 4.69 -6.54Q3.97 -6.54 3.38 -6.19Q2.79 -5.83 2.44 -5.21Q2.08 -4.59 2.08 -3.78V-3.60Q2.08 -2.76 2.44 -2.15Q2.79 -1.54 3.39 -1.22Q3.99 -0.90 4.72 -0.90Q5.46 -0.90 5.96 -1.19Q6.46 -1.48 6.74 -1.94Q7.02 -2.40 7.09 -2.91L8.27 -2.64Q8.12 -1.81 7.65 -1.17Q7.18 -0.53 6.44 -0.16Q5.70 0.21 4.72 0.21Z M13.77 0.21Q12.78 0.21 11.93 -0.24Q11.08 -0.69 10.56 -1.54Q10.04 -2.40 10.04 -3.63V-3.81Q10.04 -5.02 10.56 -5.89Q11.08 -6.75 11.93 -7.20Q12.78 -7.65 13.77 -7.65Q14.76 -7.65 15.61 -7.20Q16.45 -6.75 16.98 -5.89Q17.50 -5.02 17.50 -3.81V-3.63Q17.50 -2.40 16.98 -1.54Q16.45 -0.69 15.61 -0.24Q14.76 0.21 13.77 0.21ZM13.77 -0.90Q14.49 -0.90 15.06 -1.23Q15.63 -1.56 15.97 -2.17Q16.30 -2.79 16.30 -3.63V-3.81Q16.30 -4.62 15.97 -5.23Q15.63 -5.85 15.05 -6.20Q14.47 -6.54 13.77 -6.54Q13.06 -6.54 12.49 -6.20Q11.91 -5.85 11.57 -5.23Q11.23 -4.62 11.23 -3.81V-3.63Q11.23 -2.79 11.57 -2.17Q11.91 -1.56 12.49 -1.23Q13.06 -0.90 13.77 -0.90Z M19.66 0.00V-7.44H20.84V-6.18H21.02Q21.70 -7.65 23.41 -7.65Q24.70 -7.65 25.47 -6.85Q26.23 -6.04 26.23 -4.44V0.00H25.06V-4.20Q25.06 -5.37 24.54 -5.96Q24.02 -6.54 23.11 -6.54Q22.06 -6.54 21.45 -5.81Q20.84 -5.08 20.84 -3.87V0.00Z M32.25 0.21Q31.09 0.21 30.36 -0.19Q29.62 -0.58 29.27 -1.21Q28.90 -1.83 28.86 -2.49L29.97 -2.76Q30.04 -1.91 30.64 -1.39Q31.23 -0.87 32.19 -0.87Q33.02 -0.87 33.52 -1.19Q34.02 -1.51 34.02 -2.10Q34.02 -2.73 33.52 -3.00Q33.03 -3.27 31.92 -3.34Q30.64 -3.44 29.95 -3.95Q29.25 -4.47 29.25 -5.43V-5.52Q29.25 -6.22 29.64 -6.70Q30.03 -7.17 30.64 -7.41Q31.26 -7.65 31.95 -7.65Q32.94 -7.65 33.59 -7.31Q34.24 -6.97 34.59 -6.44Q34.94 -5.91 35.01 -5.34L33.90 -5.07Q33.84 -5.79 33.33 -6.20Q32.82 -6.60 32.01 -6.60Q31.38 -6.60 30.88 -6.33Q30.39 -6.06 30.39 -5.52Q30.39 -4.98 30.85 -4.70Q31.30 -4.41 32.52 -4.32Q33.81 -4.21 34.50 -3.70Q35.19 -3.18 35.19 -2.19V-2.10Q35.19 -1.02 34.37 -0.41Q33.55 0.21 32.25 0.21Z M41.31 0.21Q40.32 0.21 39.47 -0.24Q38.62 -0.69 38.10 -1.54Q37.57 -2.40 37.57 -3.63V-3.81Q37.57 -5.02 38.10 -5.89Q38.62 -6.75 39.47 -7.20Q40.32 -7.65 41.31 -7.65Q42.30 -7.65 43.15 -7.20Q43.99 -6.75 44.52 -5.89Q45.05 -5.02 45.05 -3.81V-3.63Q45.05 -2.40 44.52 -1.54Q43.99 -0.69 43.15 -0.24Q42.30 0.21 41.31 0.21ZM41.31 -0.90Q42.03 -0.90 42.60 -1.23Q43.17 -1.56 43.51 -2.17Q43.84 -2.79 43.84 -3.63V-3.81Q43.84 -4.62 43.51 -5.23Q43.17 -5.85 42.59 -6.20Q42.02 -6.54 41.31 -6.54Q40.60 -6.54 40.03 -6.20Q39.45 -5.85 39.11 -5.23Q38.77 -4.62 38.77 -3.81V-3.63Q38.77 -2.79 39.11 -2.17Q39.45 -1.56 40.03 -1.23Q40.60 -0.90 41.31 -0.90Z M47.20 0.00V-1.08H49.91V-9.42H47.30V-10.50H51.07V-1.08H53.77V0.00Z M59.70 0.21Q58.63 0.21 57.82 -0.28Q57.00 -0.77 56.53 -1.63Q56.07 -2.49 56.07 -3.63V-3.99Q56.07 -5.04 56.55 -5.87Q57.03 -6.69 57.86 -7.17Q58.70 -7.65 59.73 -7.65Q60.64 -7.65 61.31 -7.32Q61.98 -6.99 62.41 -6.48Q62.84 -5.97 63.04 -5.39Q63.24 -4.81 63.24 -4.32V-3.36H57.24Q57.28 -2.27 57.94 -1.58Q58.59 -0.90 59.73 -0.90Q60.80 -0.90 61.32 -1.35Q61.84 -1.80 62.04 -2.43L63.15 -2.13Q62.84 -1.09 61.99 -0.44Q61.14 0.21 59.70 0.21ZM57.27 -4.44H62.07Q62.04 -5.08 61.70 -5.56Q61.36 -6.03 60.84 -6.29Q60.31 -6.54 59.73 -6.54Q58.74 -6.54 58.06 -5.94Q57.39 -5.34 57.27 -4.44Z M68.85 0.21Q68.43 0.21 68.11 -0.10Q67.80 -0.42 67.80 -0.84Q67.80 -1.27 68.11 -1.58Q68.43 -1.89 68.85 -1.89Q69.28 -1.89 69.59 -1.58Q69.90 -1.27 69.90 -0.84Q69.90 -0.42 69.59 -0.10Q69.28 0.21 68.85 0.21Z M74.75 0.00V-1.08H77.44V-9.42H74.83V-10.50H78.61V-1.08H81.31V0.00Z M87.21 0.21Q86.22 0.21 85.37 -0.24Q84.52 -0.69 84.00 -1.54Q83.47 -2.40 83.47 -3.63V-3.81Q83.47 -5.02 84.00 -5.89Q84.52 -6.75 85.37 -7.20Q86.22 -7.65 87.21 -7.65Q88.20 -7.65 89.05 -7.20Q89.89 -6.75 90.42 -5.89Q90.94 -5.02 90.94 -3.81V-3.63Q90.94 -2.40 90.42 -1.54Q89.89 -0.69 89.05 -0.24Q88.20 0.21 87.21 0.21ZM87.21 -0.90Q87.93 -0.90 88.50 -1.23Q89.07 -1.56 89.41 -2.17Q89.74 -2.79 89.74 -3.63V-3.81Q89.74 -4.62 89.41 -5.23Q89.07 -5.85 88.49 -6.20Q87.91 -6.54 87.21 -6.54Q86.50 -6.54 85.93 -6.20Q85.35 -5.85 85.01 -5.23Q84.67 -4.62 84.67 -3.81V-3.63Q84.67 -2.79 85.01 -2.17Q85.35 -1.56 85.93 -1.23Q86.50 -0.90 87.21 -0.90Z M93.93 3.00V1.92H98.35Q98.76 1.92 98.76 1.47V-1.14H98.58Q98.22 -0.46 97.60 -0.13Q96.97 0.21 96.24 0.21Q95.25 0.21 94.42 -0.23Q93.58 -0.67 93.08 -1.53Q92.58 -2.38 92.58 -3.60V-3.84Q92.58 -5.05 93.09 -5.90Q93.60 -6.75 94.42 -7.20Q95.25 -7.65 96.21 -7.65Q97.02 -7.65 97.63 -7.30Q98.25 -6.94 98.58 -6.27H98.76V-7.44H99.93V1.83Q99.93 2.34 99.61 2.67Q99.28 3.00 98.77 3.00ZM96.27 -0.90Q96.97 -0.90 97.54 -1.24Q98.10 -1.57 98.43 -2.19Q98.76 -2.80 98.76 -3.63V-3.81Q98.76 -4.60 98.42 -5.22Q98.08 -5.83 97.52 -6.19Q96.96 -6.54 96.27 -6.54Q95.56 -6.54 95.00 -6.20Q94.44 -5.87 94.11 -5.26Q93.78 -4.65 93.78 -3.84V-3.60Q93.78 -2.77 94.10 -2.17Q94.42 -1.56 94.99 -1.23Q95.55 -0.90 96.27 -0.90Z M108.63 2.34Q107.58 2.34 106.63 1.95Q105.67 1.56 104.93 0.82Q104.19 0.07 103.75 -0.98Q103.32 -2.04 103.32 -3.36V-7.14Q103.32 -8.47 103.75 -9.52Q104.19 -10.57 104.93 -11.32Q105.67 -12.06 106.63 -12.45Q107.58 -12.84 108.63 -12.84H109.17V-11.73H108.63Q107.55 -11.73 106.60 -11.17Q105.66 -10.61 105.07 -9.56Q104.49 -8.52 104.49 -7.08V-3.42Q104.49 -1.98 105.07 -0.94Q105.66 0.10 106.60 0.67Q107.55 1.23 108.63 1.23H109.17V2.34Z M112.29 3.00V1.92H116.72Q117.12 1.92 117.12 1.47V-1.14H116.94Q116.58 -0.46 115.96 -0.13Q115.33 0.21 114.60 0.21Q113.61 0.21 112.78 -0.23Q111.94 -0.67 111.44 -1.53Q110.94 -2.38 110.94 -3.60V-3.84Q110.94 -5.05 111.45 -5.90Q111.96 -6.75 112.78 -7.20Q113.61 -7.65 114.57 -7.65Q115.38 -7.65 116.00 -7.30Q116.61 -6.94 116.94 -6.27H117.12V-7.44H118.29V1.83Q118.29 2.34 117.97 2.67Q117.64 3.00 117.13 3.00ZM114.63 -0.90Q115.33 -0.90 115.90 -1.24Q116.46 -1.57 116.79 -2.19Q117.12 -2.80 117.12 -3.63V-3.81Q117.12 -4.60 116.78 -5.22Q116.44 -5.83 115.88 -6.19Q115.32 -6.54 114.63 -6.54Q113.92 -6.54 113.36 -6.20Q112.80 -5.87 112.47 -5.26Q112.14 -4.65 112.14 -3.84V-3.60Q112.14 -2.77 112.46 -2.17Q112.78 -1.56 113.35 -1.23Q113.91 -0.90 114.63 -0.90Z M123.96 0.21Q122.89 0.21 122.08 -0.28Q121.26 -0.77 120.79 -1.63Q120.33 -2.49 120.33 -3.63V-3.99Q120.33 -5.04 120.81 -5.87Q121.29 -6.69 122.12 -7.17Q122.95 -7.65 123.99 -7.65Q124.90 -7.65 125.57 -7.32Q126.24 -6.99 126.67 -6.48Q127.09 -5.97 127.30 -5.39Q127.50 -4.81 127.50 -4.32V-3.36H121.50Q121.54 -2.27 122.20 -1.58Q122.85 -0.90 123.99 -0.90Q125.05 -0.90 125.58 -1.35Q126.10 -1.80 126.30 -2.43L127.41 -2.13Q127.09 -1.09 126.25 -0.44Q125.40 0.21 123.96 0.21ZM121.53 -4.44H126.33Q126.30 -5.08 125.96 -5.56Q125.62 -6.03 125.10 -6.29Q124.57 -6.54 123.99 -6.54Q123.00 -6.54 122.32 -5.94Q121.65 -5.34 121.53 -4.44Z M133.06 0.00Q132.55 0.00 132.23 -0.33Q131.91 -0.66 131.91 -1.17V-6.36H129.57V-7.44H131.91V-10.50H133.08V-7.44H135.96V-6.36H133.08V-1.53Q133.08 -1.08 133.48 -1.08H135.60V0.00Z M138.97 0.00V-10.50H142.72Q143.80 -10.50 144.52 -10.10Q145.23 -9.71 145.58 -9.06Q145.94 -8.41 145.94 -7.65V-7.20Q145.94 -6.43 145.57 -5.78Q145.21 -5.12 144.50 -4.72Q143.79 -4.32 142.72 -4.32H140.23V0.00ZM140.23 -5.49H142.57Q144.67 -5.49 144.67 -7.29V-7.56Q144.67 -8.36 144.16 -8.84Q143.64 -9.33 142.57 -9.33H140.23Z M147.59 0.00V-1.08H149.29V-6.36H147.76V-7.44H150.47V-6.45H150.64Q150.93 -7.06 151.46 -7.36Q152.00 -7.65 152.66 -7.65Q153.76 -7.65 154.46 -6.91Q155.16 -6.18 155.20 -4.77L153.97 -4.59Q153.97 -5.62 153.48 -6.08Q152.98 -6.54 152.26 -6.54Q151.35 -6.54 150.91 -5.87Q150.47 -5.21 150.47 -4.23V-1.08H152.35V0.00Z M160.68 0.21Q159.62 0.21 158.80 -0.28Q157.98 -0.77 157.51 -1.63Q157.05 -2.49 157.05 -3.63V-3.99Q157.05 -5.04 157.53 -5.87Q158.01 -6.69 158.84 -7.17Q159.68 -7.65 160.71 -7.65Q161.62 -7.65 162.29 -7.32Q162.96 -6.99 163.39 -6.48Q163.81 -5.97 164.02 -5.39Q164.22 -4.81 164.22 -4.32V-3.36H158.22Q158.27 -2.27 158.92 -1.58Q159.57 -0.90 160.71 -0.90Q161.78 -0.90 162.30 -1.35Q162.82 -1.80 163.02 -2.43L164.13 -2.13Q163.81 -1.09 162.97 -0.44Q162.12 0.21 160.68 0.21ZM158.25 -4.44H163.05Q163.02 -5.08 162.68 -5.56Q162.34 -6.03 161.82 -6.29Q161.30 -6.54 160.71 -6.54Q159.72 -6.54 159.05 -5.94Q158.37 -5.34 158.25 -4.44Z M168.76 0.00V-6.36H166.47V-7.44H168.76V-9.33Q168.76 -9.84 169.09 -10.17Q169.41 -10.50 169.92 -10.50H172.86V-9.42H170.34Q169.93 -9.42 169.93 -8.97V-7.44H173.04V-6.36H169.93V0.00Z M179.04 0.21Q177.97 0.21 177.16 -0.28Q176.34 -0.77 175.88 -1.63Q175.41 -2.49 175.41 -3.63V-3.99Q175.41 -5.04 175.89 -5.87Q176.37 -6.69 177.20 -7.17Q178.03 -7.65 179.07 -7.65Q179.98 -7.65 180.65 -7.32Q181.32 -6.99 181.75 -6.48Q182.17 -5.97 182.38 -5.39Q182.58 -4.81 182.58 -4.32V-3.36H176.58Q176.62 -2.27 177.28 -1.58Q177.93 -0.90 179.07 -0.90Q180.13 -0.90 180.66 -1.35Q181.18 -1.80 181.38 -2.43L182.49 -2.13Q182.17 -1.09 181.33 -0.44Q180.48 0.21 179.04 0.21ZM176.61 -4.44H181.41Q181.38 -5.08 181.04 -5.56Q180.70 -6.03 180.18 -6.29Q179.65 -6.54 179.07 -6.54Q178.08 -6.54 177.40 -5.94Q176.73 -5.34 176.61 -4.44Z M184.31 0.00V-1.08H186.01V-6.36H184.48V-7.44H187.19V-6.45H187.36Q187.65 -7.06 188.18 -7.36Q188.72 -7.65 189.38 -7.65Q190.48 -7.65 191.18 -6.91Q191.88 -6.18 191.92 -4.77L190.69 -4.59Q190.69 -5.62 190.20 -6.08Q189.70 -6.54 188.98 -6.54Q188.07 -6.54 187.63 -5.87Q187.19 -5.21 187.19 -4.23V-1.08H189.07V0.00Z M193.49 0.00V-1.08H195.19V-6.36H193.66V-7.44H196.37V-6.45H196.54Q196.83 -7.06 197.36 -7.36Q197.90 -7.65 198.56 -7.65Q199.66 -7.65 200.36 -6.91Q201.06 -6.18 201.10 -4.77L199.88 -4.59Q199.88 -5.62 199.38 -6.08Q198.88 -6.54 198.16 -6.54Q197.25 -6.54 196.81 -5.87Q196.37 -5.21 196.37 -4.23V-1.08H198.25V0.00Z M206.58 0.21Q205.51 0.21 204.70 -0.28Q203.88 -0.77 203.41 -1.63Q202.95 -2.49 202.95 -3.63V-3.99Q202.95 -5.04 203.43 -5.87Q203.91 -6.69 204.74 -7.17Q205.57 -7.65 206.61 -7.65Q207.52 -7.65 208.19 -7.32Q208.86 -6.99 209.29 -6.48Q209.71 -5.97 209.92 -5.39Q210.12 -4.81 210.12 -4.32V-3.36H204.12Q204.16 -2.27 204.82 -1.58Q205.47 -0.90 206.61 -0.90Q207.67 -0.90 208.20 -1.35Q208.72 -1.80 208.92 -2.43L210.03 -2.13Q209.71 -1.09 208.87 -0.44Q208.02 0.21 206.58 0.21ZM204.15 -4.44H208.95Q208.92 -5.08 208.58 -5.56Q208.24 -6.03 207.72 -6.29Q207.19 -6.54 206.61 -6.54Q205.62 -6.54 204.94 -5.94Q204.27 -5.34 204.15 -4.44Z M215.59 0.21Q214.60 0.21 213.79 -0.23Q212.98 -0.67 212.50 -1.53Q212.02 -2.38 212.02 -3.60V-3.84Q212.02 -5.05 212.51 -5.90Q213.00 -6.75 213.80 -7.20Q214.60 -7.65 215.56 -7.65Q216.33 -7.65 217.00 -7.31Q217.66 -6.97 218.02 -6.27H218.20V-10.50H219.38V0.00H218.20V-1.14H218.02Q217.66 -0.45 216.97 -0.12Q216.27 0.21 215.59 0.21ZM215.71 -0.90Q216.42 -0.90 216.98 -1.24Q217.54 -1.57 217.88 -2.19Q218.20 -2.80 218.20 -3.63V-3.81Q218.20 -4.60 217.87 -5.22Q217.53 -5.83 216.97 -6.19Q216.40 -6.54 215.71 -6.54Q215.01 -6.54 214.45 -6.20Q213.88 -5.87 213.56 -5.26Q213.22 -4.65 213.22 -3.84V-3.60Q213.22 -2.77 213.55 -2.17Q213.87 -1.56 214.44 -1.23Q215.01 -0.90 215.71 -0.90Z M221.41 0.00V-10.50H223.94L226.97 -0.54H227.14V-10.50H228.41V0.00H225.88L222.85 -9.96H222.67V0.00Z M233.69 0.21Q232.71 0.21 231.92 -0.23Q231.13 -0.67 230.67 -1.52Q230.21 -2.37 230.21 -3.60V-3.84Q230.21 -5.05 230.67 -5.91Q231.13 -6.76 231.92 -7.21Q232.71 -7.65 233.66 -7.65Q234.42 -7.65 235.04 -7.31Q235.66 -6.97 236.03 -6.27H236.21V-7.44H237.38V-1.53Q237.38 -1.08 237.78 -1.08H238.16V0.00H237.36Q236.90 0.00 236.55 -0.30Q236.21 -0.60 236.21 -1.26H236.03Q235.66 -0.53 235.03 -0.16Q234.39 0.21 233.69 0.21ZM233.81 -0.90Q234.85 -0.90 235.53 -1.65Q236.21 -2.40 236.21 -3.63V-3.81Q236.21 -4.60 235.89 -5.22Q235.57 -5.83 235.03 -6.19Q234.50 -6.54 233.81 -6.54Q233.12 -6.54 232.57 -6.20Q232.03 -5.87 231.72 -5.26Q231.41 -4.65 231.41 -3.84V-3.60Q231.41 -2.34 232.08 -1.62Q232.75 -0.90 233.81 -0.90Z M239.40 0.00V-7.44H240.57V-6.63H240.75Q240.94 -7.15 241.32 -7.40Q241.69 -7.65 242.20 -7.65Q242.74 -7.65 243.10 -7.37Q243.45 -7.08 243.58 -6.63H243.76Q244.27 -7.65 245.38 -7.65Q246.22 -7.65 246.68 -7.12Q247.14 -6.58 247.14 -5.73V0.00H245.97V-5.34Q245.97 -5.87 245.73 -6.20Q245.49 -6.54 244.96 -6.54Q244.47 -6.54 244.16 -6.17Q243.85 -5.79 243.85 -5.04V0.00H242.68V-5.40Q242.68 -5.89 242.41 -6.22Q242.14 -6.54 241.69 -6.54Q241.15 -6.54 240.86 -6.15Q240.57 -5.76 240.57 -5.13V0.00Z M252.48 0.21Q251.41 0.21 250.60 -0.28Q249.78 -0.77 249.31 -1.63Q248.85 -2.49 248.85 -3.63V-3.99Q248.85 -5.04 249.33 -5.87Q249.81 -6.69 250.64 -7.17Q251.47 -7.65 252.51 -7.65Q253.42 -7.65 254.09 -7.32Q254.76 -6.99 255.19 -6.48Q255.61 -5.97 255.82 -5.39Q256.02 -4.81 256.02 -4.32V-3.36H250.02Q250.06 -2.27 250.72 -1.58Q251.37 -0.90 252.51 -0.90Q253.57 -0.90 254.10 -1.35Q254.62 -1.80 254.82 -2.43L255.93 -2.13Q255.61 -1.09 254.77 -0.44Q253.92 0.21 252.48 0.21ZM250.05 -4.44H254.85Q254.82 -5.08 254.48 -5.56Q254.14 -6.03 253.62 -6.29Q253.09 -6.54 252.51 -6.54Q251.52 -6.54 250.84 -5.94Q250.17 -5.34 250.05 -4.44Z M264.69 2.34Q263.64 2.34 262.69 1.95Q261.73 1.56 260.99 0.82Q260.25 0.07 259.81 -0.98Q259.38 -2.04 259.38 -3.36V-7.14Q259.38 -8.47 259.81 -9.52Q260.25 -10.57 260.99 -11.32Q261.73 -12.06 262.69 -12.45Q263.64 -12.84 264.69 -12.84H265.23V-11.73H264.69Q263.61 -11.73 262.66 -11.17Q261.72 -10.61 261.13 -9.56Q260.55 -8.52 260.55 -7.08V-3.42Q260.55 -1.98 261.13 -0.94Q261.72 0.10 262.66 0.67Q263.61 1.23 264.69 1.23H265.23V2.34Z M267.21 2.34V1.23H267.75Q268.83 1.23 269.77 0.67Q270.72 0.10 271.30 -0.94Q271.89 -1.98 271.89 -3.42V-7.08Q271.89 -8.52 271.30 -9.56Q270.72 -10.61 269.77 -11.17Q268.83 -11.73 267.75 -11.73H267.21V-12.84H267.75Q268.80 -12.84 269.75 -12.45Q270.70 -12.06 271.45 -11.32Q272.19 -10.57 272.62 -9.52Q273.06 -8.47 273.06 -7.14V-3.36Q273.06 -2.04 272.62 -0.98Q272.19 0.07 271.45 0.82Q270.70 1.56 269.75 1.95Q268.80 2.34 267.75 2.34Z M276.39 2.34V1.23H276.93Q278.01 1.23 278.95 0.67Q279.90 0.10 280.49 -0.94Q281.07 -1.98 281.07 -3.42V-7.08Q281.07 -8.52 280.49 -9.56Q279.90 -10.61 278.95 -11.17Q278.01 -11.73 276.93 -11.73H276.39V-12.84H276.93Q277.98 -12.84 278.93 -12.45Q279.88 -12.06 280.63 -11.32Q281.37 -10.57 281.80 -9.52Q282.24 -8.47 282.24 -7.14V-3.36Q282.24 -2.04 281.80 -0.98Q281.37 0.07 280.63 0.82Q279.88 1.56 278.93 1.95Q277.98 2.34 276.93 2.34Z" fill="#2B2A27"/></g>
+      <g opacity="0">
+        <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite" calcMode="discrete"
+          keyTimes="0;0.55296;1;1" values="0;1;0;0"/>
+        <rect x="0" y="-15.8" width="2.4" height="18.0" fill="#2B2A27">
+          <animate attributeName="x" calcMode="discrete" dur="20.58s" repeatCount="indefinite"
+            keyTimes="0;0.55296;0.55296;0.55602;0.55908;0.56213;0.56519;0.56825;0.5713;0.57436;0.57742;0.58047;0.58353;0.58659;0.58964;0.5927;0.59576;0.59881;0.60187;0.60492;0.60798;0.61104;0.61409;0.61715;0.62021;0.62326;0.62632;0.62938;0.63243;0.63549;0.63855;0.6416;0.64466;0.64772;1" values="2;2;2;11.18;20.36;29.54;38.72;47.9;57.08;66.26;75.44;84.62;93.8;102.98;112.16;121.34;130.52;139.7;148.88;158.06;167.24;176.42;185.6;194.78;203.96;213.14;222.32;231.5;240.68;249.86;259.04;268.22;277.4;286.58;286.58"/>
+          <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.49;0.5;0.99;1" dur="1.06s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+    <g transform="translate(142 517.5)" opacity="0">
+        <animate attributeName="opacity" dur="20.58s" repeatCount="indefinite"
+          keyTimes="0;0.70845;0.72303;1" values="0;0;1;1"/>
+        <animateTransform attributeName="transform" type="translate" dur="20.58s" repeatCount="indefinite"
+          calcMode="spline" keyTimes="0;0.70845;0.72546;1" keySplines="0 0 1 1;0.22 1 0.36 1;0 0 1 1"
+          values="142,524.5; 142,524.5; 142,517.5; 142,517.5"/>
+        <path d="M1.33 0.00V-10.50H2.59V-5.85H2.94L6.97 -10.50H8.54V-10.41L4.18 -5.34V-5.16L8.71 -0.09V0.00H7.12L2.94 -4.68H2.59V0.00Z M13.83 0.21Q12.11 0.21 11.12 -0.89Q10.14 -1.99 10.14 -4.08V-6.42Q10.14 -8.45 11.12 -9.58Q12.11 -10.71 13.83 -10.71Q15.03 -10.71 15.86 -10.20Q16.68 -9.69 17.10 -8.83Q17.52 -7.96 17.52 -6.90V-6.72H16.26V-6.90Q16.24 -7.59 16.00 -8.19Q15.75 -8.79 15.22 -9.16Q14.68 -9.54 13.83 -9.54Q12.62 -9.54 12.01 -8.65Q11.40 -7.77 11.40 -6.33V-4.17Q11.40 -2.64 12.01 -1.80Q12.62 -0.96 13.83 -0.96Q14.68 -0.96 15.22 -1.33Q15.77 -1.71 16.01 -2.31Q16.26 -2.91 16.26 -3.60V-3.78H17.52V-3.60Q17.52 -2.53 17.10 -1.67Q16.68 -0.81 15.86 -0.30Q15.03 0.21 13.83 0.21Z" fill="#D4A02B"/>
+      </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+# Python virtualenv for the font and photo pipeline.
+# Recreate: python3 -m venv .venv && .venv/bin/pip install fonttools uharfbuzz Pillow
+.venv/
+
+# Generated from assets/ by scripts/prepare-photos.py.
+# Large base64 payload, and the built SVGs already embed everything they need.
+build/
+
+# Machine-local Claude Code permissions, not shared config.
+.claude/settings.local.json
+
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local-only dev tooling: the motion harness and preview galleries.
+dev/
+mvp/
