@@ -303,7 +303,7 @@ function sortLine(t, ns) {
   const checkX = 0, sortedX = 18;
   const runOut = `<g transform="translate(${textX} ${row1})" opacity="0">
         <animate attributeName="opacity" dur="${TL}s" repeatCount="indefinite"
-          keyTimes="0;${k(SN_INVOKE)};${k(SN_INVOKE + 0.01)};${k(CLIMAX)};1" values="0;0;1;1;0"/>
+          keyTimes="0;${k(SN_INVOKE)};${k(SN_INVOKE + 0.01)};${k(CLIMAX - 0.01)};${k(CLIMAX)};1" values="0;0;1;1;0;0"/>
         <path d="${run.d}" fill="${t.term.mut}"/>
       </g>`;
   const doneOut = `<g transform="translate(${textX} ${row1})" opacity="0">
