@@ -8,7 +8,7 @@
   <img src="img/head-about-light.svg" alt="About me">
 </picture>
 
-- 💻 JavaScript developer based in Toronto, ON who really enjoys building software focused on the user-experience
+- 💻 JavaScript developer based in Toronto, ON who enjoys building software focused on the user-experience
 
 - 🌱 Currently: sharpening my skills through coding challenges and refining my agentic workflow
 
@@ -30,7 +30,6 @@
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Chrome DevTools](https://img.shields.io/badge/Chrome_DevTools-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 <picture>
@@ -42,4 +41,4 @@
   <source media="(prefers-color-scheme: dark)" srcset="img/co-maintainers-dark.svg">
   <img src="img/co-maintainers-light.svg" alt="Kingsley, a golden retriever, and Tyson, a tabby cat">
 </picture>
-Grateful that all repo maintenance is handled by these talented orchestrators.
+Grateful that my repo maintenance is handled by a pair of talented orchestrators.
