@@ -14,29 +14,63 @@ const CODE_SIZE = 15;
 const LEADING = 1.28;
 
 const O = 0.5;
-const GHOST_FADE_IN = 0.6;
 
 const HEY_START = O + 0.3, HEY_DUR = 0.6, HEY_ARC = 0.4;
 const IS_START = O + 1.5, IS_STAGGER = 0.1, IS_TRAVEL = 0.4;
 
 const CHURN_START = O;
-const JITTER = 1.5, SPREAD = 1.0;
+const JITTER = 1.5;
 const GHOST_OP = 0.20;
 
-const SN_TYPE_START = O + 3.0;
-const SN_INVOKE = O + 4.0;
-const SN_TYPE_DUR = +(SN_INVOKE - SN_TYPE_START).toFixed(2);
+// The pool: same face, weight and size as the name, but never sorted. It keeps
+// jumbling across the whole canvas for the length of the loop.
+const AMB_COLS = 9, AMB_ROWS = 6, AMB_FILL = 0.87;
+const AMB_HOPS = 7;
+const AMB_SWAY_X = 175, AMB_SWAY_Y = 122;
+const AMB_ROT = 32;
+const AMB_DUR = [11, 30];
+const AMB_HOP_SKEW = 1.6;
+const AMB_OP = 0.30, AMB_DIM = 0.22;
+const AMB_SEED = 5140723;
+
+const RES_TYPE_START = O + 3.0;
+const RES_INVOKE = O + 4.0;
+const RES_TYPE_DUR = +(RES_INVOKE - RES_TYPE_START).toFixed(2);
 const SORT_GAP = 1.0;
-const SORT_FIRE = +(SN_INVOKE + SORT_GAP).toFixed(2);
+const SORT_FIRE = +(RES_INVOKE + SORT_GAP).toFixed(2);
 const BRIGHTEN = 1.4;
 const SORT_TRAVEL = 1.5, SORT_STAGGER = 0.125;
 
 const TYPE_DUR = 1.95;
 const RESULT_GAP = 1.25;
-const HOLD = 5.0, RESET = 1.0;
 
-const T = 15.6;
-let TL = T;
+// The K and C light one after the other, the way the terminal prints them, and
+// each carries a gold bloom that swells and clears.
+const GOLD_LEAD = 0.15, GOLD_STEP = 0.19, GOLD_DUR = 0.55;
+const GOLD_POP = 1.05, GOLD_POP_DUR = 0.5;
+const BLOOM_BLUR = 9, BLOOM_PEAK = 0.85, BLOOM_TAIL = 1.8;
+
+// The landed name never sits perfectly still. A whole line floats on x and y at
+// once, and each letter bobs on top of that. Per-letter movement is vertical
+// only: the outer lines are justified to the block, so drift on x would show up
+// as uneven gaps between the letters.
+const LINE_FLOAT_X = 4.6, LINE_FLOAT_Y = 7.4;
+const LINE_DUR_X = [6.4, 8.4], LINE_DUR_Y = [4.4, 5.8];
+const BREATH_AMP = 2.7;
+const BREATH_DUR = [2.8, 4.0];
+const BREATH_WAVE = 0.09;
+const GREET_BREATH = 4.2, GREET_BREATH_DUR = 5.6;
+
+// Then the name lets go, letter by letter, and drifts back to the scramble it
+// started from. That makes t=0 and t=TL the same frame, so the loop closes.
+const RELEASE_SPREAD = 1.5;
+const RELEASE_DIM = 2.2;
+const RELEASE_FADE = 0.6;
+const STORY_OUT = 0.9, STORY_IN = 0.9;
+
+const HOLD = 4.0, RESET = 3.6;
+
+let TL = 0;
 
 const k = (sec) => +(sec / TL).toFixed(5);
 const EASE = "0.22 1 0.36 1";
@@ -51,6 +85,7 @@ const TERM = {
 };
 const DOTS = ["#FF5F57", "#FEBC2E", "#28C840"];
 
+
 const { paths, meta } = justifyBlocks([
   { key: "name", lines: NAME_LINES, width: BLOCK_W, align: ["justify", "center", "justify"] },
 ]);
@@ -60,13 +95,20 @@ const code = (id, text, size = CODE_SIZE) => ({ id, text, size, font: FACE.mono.
 const type = shape([
   disp("hey", "Hey,"),
   disp("is", " my name is"),
-  code("sortname", "sortName()"),
+  code("resolvename", "resolveName()"),
   code("invoke", "console.log(getPreferredName())"),
   code("kc", "KC"),
   code("running", "running..."),
-  code("sorted", "sorted"),
+  code("resolved", "resolved"),
   code("title", "kc@readme", 11),
 ]);
+
+const AMB_ALPHA = [...new Set(NAME_LINES.join(""))].filter((c) => c !== "-");
+const ambType = shape(AMB_ALPHA.map((ch, i) => ({
+  id: `a${i}`, text: ch, size: meta.name.base,
+  font: FACE.display.file, axes: FACE.display.axes,
+})));
+const AMB_CAP = ambType.a0.capHeight;
 
 const GLYPHS = NAME_LINES.flatMap((_, li) =>
   paths[`name-${li}`].glyphs.map((g) => ({ ...g, line: li }))
@@ -92,12 +134,44 @@ function rng(seed) {
 function field(seed) {
   const r = rng(seed);
   return GLYPHS.map(() => ({
-    dx: (r() - 0.5) * 2 * 165 * SPREAD * JITTER,
-    dy: (r() - 0.5) * 2 * 120 * SPREAD * JITTER,
+    dx: (r() - 0.5) * 2 * 165 * JITTER,
+    dy: (r() - 0.5) * 2 * 120 * JITTER,
     rot: +((r() - 0.5) * 2 * 24 * JITTER).toFixed(1),
   }));
 }
-const STATES = [field(20260728), field(8613), field(41099)];
+const STATES = [field(20260728), field(8613), field(41099), field(660231)];
+
+const BREATH = (() => {
+  const r = rng(970331);
+  return GLYPHS.map((_, n) => ({
+    dur: +(BREATH_DUR[0] + r() * (BREATH_DUR[1] - BREATH_DUR[0])).toFixed(2),
+    lag: +(n * BREATH_WAVE + r() * 0.9).toFixed(2),
+    amp: +(BREATH_AMP * (0.55 + r() * 0.45) * (r() < 0.5 ? -1 : 1)).toFixed(2),
+  }));
+})();
+
+const LINE_BREATH = (() => {
+  const r = rng(31415);
+  const swing = (a) => +(a * (0.7 + r() * 0.6) * (r() < 0.5 ? -1 : 1)).toFixed(2);
+  return NAME_LINES.map((_, i) => ({
+    ax: swing(LINE_FLOAT_X), ay: swing(LINE_FLOAT_Y),
+    tx: +(LINE_DUR_X[0] + r() * (LINE_DUR_X[1] - LINE_DUR_X[0])).toFixed(2),
+    ty: +(LINE_DUR_Y[0] + r() * (LINE_DUR_Y[1] - LINE_DUR_Y[0])).toFixed(2),
+    lx: +(i * 2.3 + r() * 1.6).toFixed(2),
+    ly: +(i * 1.7 + r() * 1.2).toFixed(2),
+  }));
+})();
+
+// The gold pair holds on longest, so the name is last seen as K and C.
+const RELEASE_AT = (() => {
+  const r = rng(430915);
+  return GLYPHS.map((g) => {
+    const isKC = g.line === 0 && KC_CLUSTERS.includes(g.cluster);
+    const off = isKC ? RELEASE_SPREAD * (0.82 + r() * 0.18) : RELEASE_SPREAD * r() * 0.72;
+    return +(END + off).toFixed(2);
+  });
+})();
+const home = { dx: 0, dy: 0, rot: 0 };
 const clamp = (v, lo, hi) => (lo > hi ? (lo + hi) / 2 : Math.min(hi, Math.max(lo, v)));
 
 const greetCap = type.hey.capHeight;
@@ -119,7 +193,7 @@ const row2 = row1 + rowH;
 const row3 = row2 + rowH;
 const TERM_BOTTOM = row3 + CODE_SIZE * 0.35 + TERM_PAD;
 const TERM_H = +(TERM_BOTTOM - termTop).toFixed(1);
-const H = Math.round(TERM_BOTTOM + 20);
+const H = Math.round(TERM_BOTTOM + 60);
 
 const textX = TERM_X + TERM_PAD + 4;
 const PROMPT_W = 15;
@@ -135,45 +209,177 @@ function fence(g, d) {
   };
 }
 
-function letters(t) {
-  return GLYPHS.map((g, n) => {
-    const settle = SORT_FIRE + n * SORT_STAGGER;
-    const land = settle + SORT_TRAVEL;
-    const mid = CHURN_START + (settle - CHURN_START) * 0.5;
-    const isKC = g.line === 0 && KC_CLUSTERS.includes(g.cluster);
+function ambDefs(ns) {
+  return AMB_ALPHA.map((_, i) => `<path id="${ns}-a${i}" d="${ambType[`a${i}`].d}"/>`).join("\n    ");
+}
 
-    const S0 = fence(g, STATES[0][n]);
-    const S1 = fence(g, STATES[1][n]);
-    const S2 = fence(g, STATES[2][n]);
-    const cx = (g.x + g.advance / 2).toFixed(1);
-    const cy = (-cap / 2).toFixed(1);
+// The pool the name is pulled out of. Anchored on a jittered grid over the whole
+// canvas, then left on a closed loop of waypoints, so a letter never settles and
+// never leaves. It passes behind the terminal rather than stopping at it.
+function ambientField(t, ns) {
+  const r = rng(AMB_SEED);
+  const pick = (lo, hi) => lo + r() * (hi - lo);
+  const cellW = W / AMB_COLS, cellH = H / AMB_ROWS;
+  const sp = Array(AMB_HOPS).fill(CHURN).join(";");
 
-    const times = [0, CHURN_START, mid, settle, land, TL];
-    const keyTimes = times.map(k).join(";");
-    const splines = [LIN, CHURN, CHURN, EASE, LIN].join(";");
-    const tv = [S0, S0, S1, S2, { dx: 0, dy: 0 }, { dx: 0, dy: 0 }];
-    const rv = [S0, S0, S1, S2, { rot: 0 }, { rot: 0 }];
+  // Uneven hop lengths, so one letter speeds up and stalls within its own cycle
+  // instead of ticking through the waypoints at a constant rate.
+  const hopTimes = () => {
+    const w = Array.from({ length: AMB_HOPS }, () => 1 + r() * AMB_HOP_SKEW);
+    const total = w.reduce((a, b) => a + b, 0);
+    const out = [0];
+    let acc = 0;
+    for (let j = 0; j < AMB_HOPS - 1; j++) {
+      acc += w[j] / total;
+      out.push(+acc.toFixed(4));
+    }
+    out.push(1);
+    return out.join(";");
+  };
 
-    const fillFrames = isKC
-      ? [[0, t.ghost], [settle, t.ghost], [land, t.ink], [RESULT_IN, t.ink], [RESULT_IN + 0.2, t.gold], [TL, t.gold]]
-      : [[0, t.ghost], [settle, t.ghost], [land, t.ink], [TL, t.ink]];
+  const out = [];
+  for (let col = 0; col < AMB_COLS; col++) {
+    for (let row = 0; row < AMB_ROWS; row++) {
+      if (r() > AMB_FILL) continue;
 
-    return `
-      <g transform="translate(${offsets[g.line]} ${(cap + g.line * step).toFixed(1)})">
+      const gi = Math.floor(r() * AMB_ALPHA.length);
+      const g = ambType[`a${gi}`];
+      const ax = clamp(pick(col * cellW, (col + 1) * cellW), -g.width * 0.3, W - g.width * 0.7);
+      const ay = clamp(pick(row * cellH + AMB_CAP, (row + 1) * cellH + AMB_CAP), AMB_CAP * 0.75, H + AMB_CAP * 0.3);
+      const cx = (g.width / 2).toFixed(1), cy = (-AMB_CAP / 2).toFixed(1);
+
+      // Sample inside the reachable range rather than clamping after the fact,
+      // or waypoints pile up on the edge and the letter slides along it.
+      const xLo = Math.max(-AMB_SWAY_X, -g.width * 0.3 - ax);
+      const xHi = Math.min(AMB_SWAY_X, W - g.width * 0.7 - ax);
+      const yLo = Math.max(-AMB_SWAY_Y, AMB_CAP * 0.75 - ay);
+      const yHi = Math.min(AMB_SWAY_Y, H + AMB_CAP * 0.3 - ay);
+
+      const tv = [], rv = [];
+      for (let j = 0; j < AMB_HOPS; j++) {
+        tv.push(`${pick(xLo, xHi).toFixed(1)},${pick(yLo, yHi).toFixed(1)}`);
+        rv.push(`${pick(-AMB_ROT, AMB_ROT).toFixed(1)} ${cx} ${cy}`);
+      }
+      tv.push(tv[0]);
+      rv.push(rv[0]);
+
+      const dur = +pick(...AMB_DUR).toFixed(1);
+      const rdur = +pick(...AMB_DUR).toFixed(1);
+
+      out.push(`
+      <g transform="translate(${ax.toFixed(1)} ${ay.toFixed(1)})">
         <g>
-          <path d="${g.d}" fill="${t.ghost}">
-            <animate attributeName="fill" dur="${TL}s" repeatCount="indefinite"
-              keyTimes="${fillFrames.map(([s]) => k(s)).join(";")}"
-              values="${fillFrames.map(([, c]) => c).join(";")}"/>
-          </path>
-          <animateTransform attributeName="transform" type="translate" dur="${TL}s"
-            repeatCount="indefinite" calcMode="spline" keyTimes="${keyTimes}"
-            keySplines="${splines}" values="${tv.map((v) => `${v.dx},${v.dy}`).join(";")}"/>
-          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="${TL}s"
-            repeatCount="indefinite" calcMode="spline" keyTimes="${keyTimes}"
-            keySplines="${splines}" values="${rv.map((v) => `${v.rot} ${cx} ${cy}`).join(";")}"/>
+          <animateTransform attributeName="transform" type="translate" dur="${dur}s"
+            begin="-${(r() * dur).toFixed(1)}s" calcMode="spline" repeatCount="indefinite"
+            keyTimes="${hopTimes()}" keySplines="${sp}" values="${tv.join("; ")}"/>
+          <animateTransform attributeName="transform" type="rotate" additive="sum" dur="${rdur}s"
+            begin="-${(r() * rdur).toFixed(1)}s" calcMode="spline" repeatCount="indefinite"
+            keyTimes="${hopTimes()}" keySplines="${sp}" values="${rv.join("; ")}"/>
+          <use href="#${ns}-a${gi}"/>
         </g>
-      </g>`;
+      </g>`);
+    }
+  }
+
+  return `
+  <g fill="${t.ghost}" opacity="${AMB_OP}">
+    <animate attributeName="opacity" dur="${TL}s" repeatCount="indefinite"
+      keyTimes="0;${k(SORT_FIRE)};${k(SORT_FIRE + BRIGHTEN)};${k(END)};1"
+      values="${AMB_OP};${AMB_OP};${AMB_DIM};${AMB_DIM};${AMB_OP}"/>${out.join("")}
+  </g>`;
+}
+
+// One letter, from the scramble it starts in to the scramble it goes back to.
+function letter(t, ns, g, n) {
+  const settle = SORT_FIRE + n * SORT_STAGGER;
+  const land = settle + SORT_TRAVEL;
+  const mid = CHURN_START + (settle - CHURN_START) * 0.5;
+  const go = RELEASE_AT[n];
+  const drift = +((go + TL) / 2).toFixed(2);
+  const isKC = g.line === 0 && KC_CLUSTERS.includes(g.cluster);
+  const b = BREATH[n];
+
+  const S0 = fence(g, STATES[0][n]);
+  const S1 = fence(g, STATES[1][n]);
+  const S2 = fence(g, STATES[2][n]);
+  const S3 = fence(g, STATES[3][n]);
+  const cx = (g.x + g.advance / 2).toFixed(1);
+  const cy = (-cap / 2).toFixed(1);
+
+  const times = [0, CHURN_START, mid, settle, land, go, drift, TL];
+  const keyTimes = times.map(k).join(";");
+  const splines = [LIN, CHURN, CHURN, EASE, LIN, CHURN, CHURN].join(";");
+  const tv = [S0, S0, S1, S2, home, home, S3, S0];
+
+  const gold = +(RESULT_IN + GOLD_LEAD + KC_CLUSTERS.indexOf(g.cluster) * GOLD_STEP).toFixed(2);
+  const fillFrames = isKC
+    ? [[0, t.ghost, LIN], [settle, t.ghost, LIN], [land, t.ink, LIN], [gold, t.ink, EASE],
+       [gold + GOLD_DUR, t.gold, LIN], [go, t.gold, EASE], [go + RELEASE_FADE, t.ghost, LIN], [TL, t.ghost]]
+    : [[0, t.ghost, LIN], [settle, t.ghost, LIN], [land, t.ink, LIN],
+       [go, t.ink, EASE], [go + RELEASE_FADE, t.ghost, LIN], [TL, t.ghost]];
+
+  const face = `
+            <path d="${g.d}" fill="${t.ghost}">
+              <animate attributeName="fill" dur="${TL}s" repeatCount="indefinite" calcMode="spline"
+                keyTimes="${fillFrames.map(([s]) => k(s)).join(";")}"
+                keySplines="${fillFrames.slice(0, -1).map(([, , e]) => e).join(";")}"
+                values="${fillFrames.map(([, c]) => c).join(";")}"/>
+            </path>`;
+
+  // The gold pair flares: a blurred copy of the letter swells and clears, and
+  // the letter itself takes a short scale pop about its own centre.
+  const lit = isKC ? `
+          <g transform="translate(${cx} ${cy})">
+            <g>
+              <animateTransform attributeName="transform" type="scale" dur="${TL}s"
+                repeatCount="indefinite" calcMode="spline"
+                keyTimes="0;${k(gold)};${k(gold + GOLD_POP_DUR * 0.38)};${k(gold + GOLD_POP_DUR)};1"
+                keySplines="${LIN};${EASE};${EASE};${LIN}" values="1;1;${GOLD_POP};1;1"/>
+              <g transform="translate(${-cx} ${-cy})">
+                <path d="${g.d}" fill="${t.gold}" filter="url(#${ns}-bloom)" opacity="0">
+                  <animate attributeName="opacity" dur="${TL}s" repeatCount="indefinite" calcMode="spline"
+                    keyTimes="0;${k(gold)};${k(gold + GOLD_DUR * 0.75)};${k(gold + BLOOM_TAIL)};1"
+                    keySplines="${LIN};${EASE};${EASE};${LIN}" values="0;0;${BLOOM_PEAK};0;0"/>
+                </path>${face}
+              </g>
+            </g>
+          </g>` : face;
+
+  return `
+        <g>
+          <animateTransform attributeName="transform" type="translate" dur="${b.dur}s"
+            begin="-${b.lag}s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+            keySplines="${CHURN};${CHURN}" values="0,0; 0,${b.amp}; 0,0"/>
+          <g>
+            <animateTransform attributeName="transform" type="translate" dur="${TL}s"
+              repeatCount="indefinite" calcMode="spline" keyTimes="${keyTimes}"
+              keySplines="${splines}" values="${tv.map((v) => `${v.dx},${v.dy}`).join(";")}"/>
+            <animateTransform attributeName="transform" type="rotate" additive="sum" dur="${TL}s"
+              repeatCount="indefinite" calcMode="spline" keyTimes="${keyTimes}"
+              keySplines="${splines}" values="${tv.map((v) => `${v.rot} ${cx} ${cy}`).join(";")}"/>${lit}
+          </g>
+        </g>`;
+}
+
+// Each line rides its own slow float, so the name drifts as three blocks with
+// the letters bobbing inside them.
+function letters(t, ns) {
+  return NAME_LINES.map((_, li) => {
+    const f = LINE_BREATH[li];
+    const inner = GLYPHS.map((g, n) => (g.line === li ? letter(t, ns, g, n) : "")).join("");
+    return `
+    <g transform="translate(${offsets[li]} ${(cap + li * step).toFixed(1)})">
+      <g>
+        <animateTransform attributeName="transform" type="translate" dur="${f.ty}s"
+          begin="-${f.ly}s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="${CHURN};${CHURN}" values="0,0; 0,${f.ay}; 0,0"/>
+        <g>
+          <animateTransform attributeName="transform" type="translate" dur="${f.tx}s"
+            begin="-${f.lx}s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+            keySplines="${CHURN};${CHURN}" values="0,0; ${f.ax},0; 0,0"/>${inner}
+        </g>
+      </g>
+    </g>`;
   }).join("");
 }
 
@@ -297,29 +503,34 @@ function windowFrame(t) {
     <g transform="translate(${titleX} ${titleY})"><path d="${title.d}" fill="${c.title}"/></g>`;
 }
 
-function sortLine(t, ns) {
-  const g = type.sortname;
-  const run = type.running, done = type.sorted;
-  const checkX = 0, sortedX = 18;
+function promptRow(t, ns, { id, g, row, at, start, dur, show0, show1 }) {
+  return `${flash(t, row, at)}
+    ${chevron(t, row)}
+    <g transform="translate(${cmdX} ${row})">
+      <g clip-path="url(#${ns}-${id})"><path d="${g.d}" fill="${t.term.fg}"/></g>
+      ${caret(t, g, start, dur, show0, show1)}
+    </g>`;
+}
+
+function resolveLine(t, ns) {
+  const g = type.resolvename;
+  const run = type.running, done = type.resolved;
+  const doneX = 18;
   const runOut = `<g transform="translate(${textX} ${row1})" opacity="0">
         <animate attributeName="opacity" dur="${TL}s" repeatCount="indefinite"
-          keyTimes="0;${k(SN_INVOKE)};${k(SN_INVOKE + 0.01)};${k(CLIMAX - 0.01)};${k(CLIMAX)};1" values="0;0;1;1;0;0"/>
+          keyTimes="0;${k(RES_INVOKE)};${k(RES_INVOKE + 0.01)};${k(CLIMAX - 0.01)};${k(CLIMAX)};1" values="0;0;1;1;0;0"/>
         <path d="${run.d}" fill="${t.term.mut}"/>
       </g>`;
   const doneOut = `<g transform="translate(${textX} ${row1})" opacity="0">
         <animate attributeName="opacity" dur="${TL}s" repeatCount="indefinite"
           keyTimes="0;${k(CLIMAX)};${k(CLIMAX + 0.01)};1" values="0;0;1;1"/>
-        <path d="M${checkX},${(-resCap * 0.32).toFixed(1)} l4,4 l7,-9" fill="none"
+        <path d="M0,${(-resCap * 0.32).toFixed(1)} l4,4 l7,-9" fill="none"
           stroke="${t.term.prompt}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <g transform="translate(${sortedX} 0)"><path d="${done.d}" fill="${t.term.mut}"/></g>
+        <g transform="translate(${doneX} 0)"><path d="${done.d}" fill="${t.term.mut}"/></g>
       </g>`;
   return `
-    ${flash(t, row0, SN_INVOKE)}
-    ${chevron(t, row0)}
-    <g transform="translate(${cmdX} ${row0})">
-      <g clip-path="url(#${ns}-sort)"><path d="${g.d}" fill="${t.term.fg}"/></g>
-      ${caret(t, g, SN_TYPE_START, SN_TYPE_DUR, 0, CLIMAX)}
-    </g>
+    ${promptRow(t, ns, { id: "resolve", g, row: row0, at: RES_INVOKE,
+      start: RES_TYPE_START, dur: RES_TYPE_DUR, show0: 0, show1: CLIMAX })}
     ${runOut}
     ${doneOut}`;
 }
@@ -336,12 +547,8 @@ function invokeLine(t, ns) {
         <path d="${type.kc.d}" fill="${t.gold}"/>
       </g>`;
   return `
-    ${flash(t, row2, invokedAt)}
-    ${chevron(t, row2)}
-    <g transform="translate(${cmdX} ${row2})">
-      <g clip-path="url(#${ns}-invoke)"><path d="${g.d}" fill="${t.term.fg}"/></g>
-      ${caret(t, g, CLIMAX, TYPE_DUR, CLIMAX, TL)}
-    </g>
+    ${promptRow(t, ns, { id: "invoke", g, row: row2, at: invokedAt,
+      start: CLIMAX, dur: TYPE_DUR, show0: CLIMAX, show1: TL })}
     ${out}`;
 }
 
@@ -351,29 +558,39 @@ function build(theme) {
 
   return doc(W, H, `
   <defs>
-    ${lineClip(ns, "sort", type.sortname, SN_TYPE_START, SN_TYPE_DUR)}
+    ${lineClip(ns, "resolve", type.resolvename, RES_TYPE_START, RES_TYPE_DUR)}
     ${lineClip(ns, "invoke", type.invoke, CLIMAX, TYPE_DUR)}
+    <filter id="${ns}-bloom" x="-80%" y="-60%" width="260%" height="220%">
+      <feGaussianBlur stdDeviation="${BLOOM_BLUR}"/>
+    </filter>
+    ${ambDefs(ns)}
   </defs>
   <rect width="${W}" height="${H}" fill="${t.bg}"/>
+  ${ambientField(t, ns)}
+
+  <g transform="translate(${PAD} ${nameTopY.toFixed(1)})" opacity="${GHOST_OP}">
+    <animate attributeName="opacity" dur="${TL}s" repeatCount="indefinite"
+      keyTimes="0;${k(SORT_FIRE)};${k(SORT_FIRE + BRIGHTEN)};${k(END)};${k(END + RELEASE_DIM)};1"
+      values="${GHOST_OP};${GHOST_OP};1;1;${GHOST_OP};${GHOST_OP}"/>
+    ${letters(t, ns)}
+  </g>
 
   <g opacity="1">
     <animate attributeName="opacity" dur="${TL}s" repeatCount="indefinite"
-      keyTimes="0;${k(END)};1" values="1;1;0"/>
+      keyTimes="0;${k(STORY_IN)};${k(END)};${k(END + STORY_OUT)};1" values="0;1;1;0;0"/>
 
     <g transform="translate(${PAD} ${greetBaseline.toFixed(1)})">
-      ${hey(t)}
-      ${ripple(t)}
-    </g>
-
-    <g transform="translate(${PAD} ${nameTopY.toFixed(1)})" opacity="0">
-      <animate attributeName="opacity" dur="${TL}s" repeatCount="indefinite"
-        keyTimes="0;${k(O)};${k(O + GHOST_FADE_IN)};${k(SORT_FIRE)};${k(SORT_FIRE + BRIGHTEN)};1"
-        values="0;0;${GHOST_OP};${GHOST_OP};1;1"/>
-      ${letters(t)}
+      <g>
+        <animateTransform attributeName="transform" type="translate" dur="${GREET_BREATH_DUR}s"
+          begin="-2.1s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1"
+          keySplines="${CHURN};${CHURN}" values="0,0; 0,${GREET_BREATH}; 0,0"/>
+        ${hey(t)}
+        ${ripple(t)}
+      </g>
     </g>
 
     ${windowFrame(t)}
-    ${sortLine(t, ns)}
+    ${resolveLine(t, ns)}
     ${invokeLine(t, ns)}
   </g>`, "Kevin-Christian Joseph Giraldo-Barbosa, goes by KC");
 }
@@ -400,7 +617,7 @@ writeFileSync(join(PREVIEW, "split-code-preview.html"), `<!doctype html>
   .frame.light { background:#F7F7F4; } .frame.dark { background:#100F0D; }
 </style>
 <h1>Banner</h1>
-<p class="sub">Blank beat, then the scrambled name fades in and jitters while a macOS terminal waits with a blinking cursor. "Hey," falls in and "my name is" ripples; sortName() types and is invoked, the letters brighten and sort, and the terminal echoes running... then sorted; then console.log(getPreferredName()) prints KC as the K and C take the gold. Reload to replay.</p>
+<p class="sub">A pool of letters jumbles across the whole canvas, passing behind the terminal. The name letters start in that pool, at the same weight and size as the rest. resolveName() types and is invoked, and the name is pulled out one letter at a time into the centre. console.log(getPreferredName()) prints KC, and the K then the C light gold with a bloom. The landed name never sits still: each line floats on its own slow path and every letter bobs inside it. Then the name lets go, letter by letter, and drifts back into the pool it came from, so the last frame of the loop is the first. Reload to replay.</p>
 ${THEMES.map((th) => `<div class="frame ${th}">${build(th)}</div>`).join("\n")}
 `);
 
